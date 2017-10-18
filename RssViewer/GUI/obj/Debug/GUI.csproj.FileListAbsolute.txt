@@ -1,0 +1,11 @@
+C:\Users\Lukas\Source\Repos\c-projekt\RssViewer\GUI\bin\Debug\GUI.exe.config
+C:\Users\Lukas\Source\Repos\c-projekt\RssViewer\GUI\bin\Debug\GUI.exe
+C:\Users\Lukas\Source\Repos\c-projekt\RssViewer\GUI\bin\Debug\GUI.pdb
+C:\Users\Lukas\Source\Repos\c-projekt\RssViewer\GUI\bin\Debug\Logic.dll
+C:\Users\Lukas\Source\Repos\c-projekt\RssViewer\GUI\bin\Debug\Logic.pdb
+C:\Users\Lukas\Source\Repos\c-projekt\RssViewer\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\Lukas\Source\Repos\c-projekt\RssViewer\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\Lukas\Source\Repos\c-projekt\RssViewer\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\Lukas\Source\Repos\c-projekt\RssViewer\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\Lukas\Source\Repos\c-projekt\RssViewer\GUI\obj\Debug\GUI.exe
+C:\Users\Lukas\Source\Repos\c-projekt\RssViewer\GUI\obj\Debug\GUI.pdb

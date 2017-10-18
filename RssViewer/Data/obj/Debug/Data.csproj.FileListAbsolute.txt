@@ -1,0 +1,6 @@
+C:\Users\Lukas\Source\Repos\c-projekt\RssViewer\Data\bin\Debug\Data.dll
+C:\Users\Lukas\Source\Repos\c-projekt\RssViewer\Data\bin\Debug\Data.pdb
+C:\Users\Lukas\Source\Repos\c-projekt\RssViewer\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\Lukas\Source\Repos\c-projekt\RssViewer\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\Lukas\Source\Repos\c-projekt\RssViewer\Data\obj\Debug\Data.dll
+C:\Users\Lukas\Source\Repos\c-projekt\RssViewer\Data\obj\Debug\Data.pdb

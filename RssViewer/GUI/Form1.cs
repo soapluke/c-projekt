@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Logic;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,22 @@ namespace GUI
 {
     public partial class Form1 : Form
     {
+        Feed feed = new Feed();
+        public List<String> podList = new List<String>();
+
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private async void btnaddrss_Click(object sender, EventArgs e)
+        {
+            await AddPodCastAsync();
+        }
+
+        public async Task AddPodCastAsync()
+        {
+
         }
     }
 }
