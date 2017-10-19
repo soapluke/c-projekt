@@ -35,7 +35,7 @@ namespace Data
             {
                 var title = item.SelectSingleNode("title");
                 var description = item.SelectSingleNode("description");
-                var enclosure = item.SelectSingleNode("enclosure/url");
+                var enclosure = item.SelectSingleNode("enclosure/@url");
 
                 writeXml.WriteStartElement("item");
 
@@ -54,7 +54,7 @@ namespace Data
                 writeXml.WriteElementString("enclosure", enclosure.InnerText);
                 writeXml.WriteElementString("status", "Unlistened");
 
-                writeXml.WriteEndDocument();
+                writeXml.WriteEndElement();
                 i++;
             }
 
