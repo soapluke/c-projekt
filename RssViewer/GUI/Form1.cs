@@ -28,6 +28,9 @@ namespace GUI
 
         public async Task AddPodCastAsync()
         {
+            feed.GetAddNewPod(tbpodname.Text, tbpodurl.Text);
+            lbpodeps.Items.Clear();
+            await Task.Delay(5000);
 
         }
     }
