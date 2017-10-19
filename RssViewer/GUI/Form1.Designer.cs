@@ -38,11 +38,16 @@
             this.lblepdesc = new System.Windows.Forms.Label();
             this.lblname = new System.Windows.Forms.Label();
             this.lblurl = new System.Windows.Forms.Label();
+            this.cbchoosecategory = new System.Windows.Forms.ComboBox();
+            this.lblchoosecategory = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.cbcategory = new System.Windows.Forms.ComboBox();
+            this.lblcategory = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnaddrss
             // 
-            this.btnaddrss.Location = new System.Drawing.Point(13, 208);
+            this.btnaddrss.Location = new System.Drawing.Point(13, 286);
             this.btnaddrss.Name = "btnaddrss";
             this.btnaddrss.Size = new System.Drawing.Size(83, 23);
             this.btnaddrss.TabIndex = 0;
@@ -52,7 +57,7 @@
             // 
             // tbpodurl
             // 
-            this.tbpodurl.Location = new System.Drawing.Point(12, 75);
+            this.tbpodurl.Location = new System.Drawing.Point(13, 91);
             this.tbpodurl.Name = "tbpodurl";
             this.tbpodurl.Size = new System.Drawing.Size(283, 22);
             this.tbpodurl.TabIndex = 1;
@@ -121,17 +126,66 @@
             // lblurl
             // 
             this.lblurl.AutoSize = true;
-            this.lblurl.Location = new System.Drawing.Point(12, 55);
+            this.lblurl.Location = new System.Drawing.Point(10, 71);
             this.lblurl.Name = "lblurl";
             this.lblurl.Size = new System.Drawing.Size(26, 17);
             this.lblurl.TabIndex = 9;
             this.lblurl.Text = "Url";
+            // 
+            // cbchoosecategory
+            // 
+            this.cbchoosecategory.FormattingEnabled = true;
+            this.cbchoosecategory.Location = new System.Drawing.Point(15, 151);
+            this.cbchoosecategory.Name = "cbchoosecategory";
+            this.cbchoosecategory.Size = new System.Drawing.Size(146, 24);
+            this.cbchoosecategory.TabIndex = 10;
+            // 
+            // lblchoosecategory
+            // 
+            this.lblchoosecategory.AutoSize = true;
+            this.lblchoosecategory.Location = new System.Drawing.Point(12, 131);
+            this.lblchoosecategory.Name = "lblchoosecategory";
+            this.lblchoosecategory.Size = new System.Drawing.Size(115, 17);
+            this.lblchoosecategory.TabIndex = 11;
+            this.lblchoosecategory.Text = "Choose category";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(177, 152);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(118, 23);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "Add/Remove";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // cbcategory
+            // 
+            this.cbcategory.FormattingEnabled = true;
+            this.cbcategory.Location = new System.Drawing.Point(434, 47);
+            this.cbcategory.Name = "cbcategory";
+            this.cbcategory.Size = new System.Drawing.Size(146, 24);
+            this.cbcategory.TabIndex = 13;
+            // 
+            // lblcategory
+            // 
+            this.lblcategory.AutoSize = true;
+            this.lblcategory.Location = new System.Drawing.Point(431, 18);
+            this.lblcategory.Name = "lblcategory";
+            this.lblcategory.Size = new System.Drawing.Size(65, 17);
+            this.lblcategory.TabIndex = 14;
+            this.lblcategory.Text = "Category";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1170, 545);
+            this.Controls.Add(this.lblcategory);
+            this.Controls.Add(this.cbcategory);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.lblchoosecategory);
+            this.Controls.Add(this.cbchoosecategory);
             this.Controls.Add(this.lblurl);
             this.Controls.Add(this.lblname);
             this.Controls.Add(this.lblepdesc);
@@ -161,6 +215,11 @@
         private System.Windows.Forms.Label lblepdesc;
         private System.Windows.Forms.Label lblname;
         private System.Windows.Forms.Label lblurl;
+        private System.Windows.Forms.ComboBox cbchoosecategory;
+        private System.Windows.Forms.Label lblchoosecategory;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ComboBox cbcategory;
+        private System.Windows.Forms.Label lblcategory;
     }
 }
 

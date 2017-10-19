@@ -12,7 +12,7 @@ namespace Data
     {
         public static List<string> newPodList = new List<string>();
 
-        public void AddNew(string name, string url, string category = "cool", string interval = "2000")
+        public void AddNew(string name, string url, string category, string interval = "2000")
         {
             Rss rss = new Rss();
             XmlDocument doc = rss.RssReader(url);

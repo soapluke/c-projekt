@@ -12,7 +12,7 @@ namespace Logic
     {
         AddNewPod newPod = new AddNewPod();
 
-        public void GetAddNewPod(string name, string url, string category = "cool", string interval = "2000")
+        public void GetAddNewPod(string name, string url, string category, string interval = "2000")
         {
             newPod.AddNew(name, url, category, interval);
         }
