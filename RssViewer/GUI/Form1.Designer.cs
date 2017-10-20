@@ -43,6 +43,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.cbcategory = new System.Windows.Forms.ComboBox();
             this.lblcategory = new System.Windows.Forms.Label();
+            this.cbpodcasts = new System.Windows.Forms.ComboBox();
+            this.lblpodcasts = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnaddrss
@@ -166,6 +168,7 @@
             this.cbcategory.Name = "cbcategory";
             this.cbcategory.Size = new System.Drawing.Size(146, 24);
             this.cbcategory.TabIndex = 13;
+            this.cbcategory.SelectedIndexChanged += new System.EventHandler(this.cbcategory_SelectedIndexChanged);
             // 
             // lblcategory
             // 
@@ -176,11 +179,30 @@
             this.lblcategory.TabIndex = 14;
             this.lblcategory.Text = "Category";
             // 
+            // cbpodcasts
+            // 
+            this.cbpodcasts.FormattingEnabled = true;
+            this.cbpodcasts.Location = new System.Drawing.Point(638, 47);
+            this.cbpodcasts.Name = "cbpodcasts";
+            this.cbpodcasts.Size = new System.Drawing.Size(146, 24);
+            this.cbpodcasts.TabIndex = 15;
+            // 
+            // lblpodcasts
+            // 
+            this.lblpodcasts.AutoSize = true;
+            this.lblpodcasts.Location = new System.Drawing.Point(635, 18);
+            this.lblpodcasts.Name = "lblpodcasts";
+            this.lblpodcasts.Size = new System.Drawing.Size(66, 17);
+            this.lblpodcasts.TabIndex = 16;
+            this.lblpodcasts.Text = "Podcasts";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1170, 545);
+            this.Controls.Add(this.lblpodcasts);
+            this.Controls.Add(this.cbpodcasts);
             this.Controls.Add(this.lblcategory);
             this.Controls.Add(this.cbcategory);
             this.Controls.Add(this.button1);
@@ -220,6 +242,8 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ComboBox cbcategory;
         private System.Windows.Forms.Label lblcategory;
+        private System.Windows.Forms.ComboBox cbpodcasts;
+        private System.Windows.Forms.Label lblpodcasts;
     }
 }
 

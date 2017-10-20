@@ -32,7 +32,7 @@ namespace GUI
         private void btnaddnewcat_Click(object sender, EventArgs e)
         {
             category.NewFolder(tbnamenewcat.Text);
-            category.AddNewCategory(tbnamenewcat.Text);
+            MessageBox.Show($"The category {tbnamenewcat.Text} has been added.");
         }
     }
 }

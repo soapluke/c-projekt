@@ -58,5 +58,26 @@ namespace GUI
                 cbcategory.Items.Add(oneCategory);
             }
         }
+
+        public void FillPodcastCb(ComboBox category, ComboBox podcasts)
+        {
+            string categorystring = category.SelectedItem.ToString();
+            string[] podcastArray = Directory.GetFiles(categorystring);
+
+            foreach(String p in podcastArray)
+            {
+                string[] splitPods = p.Split('\\');
+                string i = splitPods[splitPods.Length - 1];
+                string[] onePod = i.Split('.');
+                string pod = onePod[0];
+
+                podcasts.Items.Add(pod);
+            }
+        }
+
+        private void cbcategory_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            FillPodcastCb(cbcategory, cbpodcasts);
+        }
     }
 }
