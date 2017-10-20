@@ -37,5 +37,12 @@ namespace Logic
 
 
         //}
+
+        public void RemoveCategory(string categoryname)
+        {
+            string path = Directory.GetCurrentDirectory() + @"\" + categoryname;
+
+            Directory.Delete(path);
+        }
     }
 }

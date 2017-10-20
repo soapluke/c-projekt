@@ -72,6 +72,7 @@
             this.lbpodeps.Name = "lbpodeps";
             this.lbpodeps.Size = new System.Drawing.Size(350, 276);
             this.lbpodeps.TabIndex = 2;
+            this.lbpodeps.SelectedIndexChanged += new System.EventHandler(this.lbpodeps_SelectedIndexChanged);
             // 
             // tbpodname
             // 
@@ -141,6 +142,7 @@
             this.cbchoosecategory.Name = "cbchoosecategory";
             this.cbchoosecategory.Size = new System.Drawing.Size(146, 24);
             this.cbchoosecategory.TabIndex = 10;
+            this.cbchoosecategory.MouseClick += new System.Windows.Forms.MouseEventHandler(this.cbchoosecategory_MouseClick);
             // 
             // lblchoosecategory
             // 
@@ -169,6 +171,7 @@
             this.cbcategory.Size = new System.Drawing.Size(146, 24);
             this.cbcategory.TabIndex = 13;
             this.cbcategory.SelectedIndexChanged += new System.EventHandler(this.cbcategory_SelectedIndexChanged);
+            this.cbcategory.MouseClick += new System.Windows.Forms.MouseEventHandler(this.cbcategory_MouseClick);
             // 
             // lblcategory
             // 
@@ -186,6 +189,7 @@
             this.cbpodcasts.Name = "cbpodcasts";
             this.cbpodcasts.Size = new System.Drawing.Size(146, 24);
             this.cbpodcasts.TabIndex = 15;
+            this.cbpodcasts.SelectedIndexChanged += new System.EventHandler(this.cbpodcasts_SelectedIndexChanged);
             // 
             // lblpodcasts
             // 

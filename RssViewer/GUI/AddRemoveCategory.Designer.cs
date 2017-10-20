@@ -33,6 +33,7 @@
             this.lblchoosecattoremove = new System.Windows.Forms.Label();
             this.cbchoosecattoremove = new System.Windows.Forms.ComboBox();
             this.btnaddnewcat = new System.Windows.Forms.Button();
+            this.btnremovecat = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblnamenewcat
@@ -70,7 +71,7 @@
             // 
             // btnaddnewcat
             // 
-            this.btnaddnewcat.Location = new System.Drawing.Point(212, 52);
+            this.btnaddnewcat.Location = new System.Drawing.Point(217, 54);
             this.btnaddnewcat.Name = "btnaddnewcat";
             this.btnaddnewcat.Size = new System.Drawing.Size(89, 23);
             this.btnaddnewcat.TabIndex = 4;
@@ -78,11 +79,22 @@
             this.btnaddnewcat.UseVisualStyleBackColor = true;
             this.btnaddnewcat.Click += new System.EventHandler(this.btnaddnewcat_Click);
             // 
+            // btnremovecat
+            // 
+            this.btnremovecat.Location = new System.Drawing.Point(217, 149);
+            this.btnremovecat.Name = "btnremovecat";
+            this.btnremovecat.Size = new System.Drawing.Size(89, 23);
+            this.btnremovecat.TabIndex = 5;
+            this.btnremovecat.Text = "Remove";
+            this.btnremovecat.UseVisualStyleBackColor = true;
+            this.btnremovecat.Click += new System.EventHandler(this.btnremovecat_Click);
+            // 
             // AddRemoveCategory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(420, 339);
+            this.ClientSize = new System.Drawing.Size(356, 279);
+            this.Controls.Add(this.btnremovecat);
             this.Controls.Add(this.btnaddnewcat);
             this.Controls.Add(this.cbchoosecattoremove);
             this.Controls.Add(this.lblchoosecattoremove);
@@ -103,5 +115,6 @@
         private System.Windows.Forms.Label lblchoosecattoremove;
         internal System.Windows.Forms.ComboBox cbchoosecattoremove;
         private System.Windows.Forms.Button btnaddnewcat;
+        private System.Windows.Forms.Button btnremovecat;
     }
 }
