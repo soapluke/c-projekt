@@ -11,21 +11,28 @@ using Logic;
 
 namespace GUI
 {
-    public partial class AddRemoveCategory : Form1
+    public partial class AddRemoveCategory : Form
     {
-        Category addnew = new Category();
-       
+        Category category = new Category();
+
         public AddRemoveCategory()
         {
             InitializeComponent();
-            base.FillCategoryCb();
+        }
+
+        private void AddRemoveCategory_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                e.Cancel = true;
+                Hide();
+            }
         }
 
         private void btnaddnewcat_Click(object sender, EventArgs e)
         {
-            addnew.NewFolder(tbnamenewcat.Text);
-            addnew.AddNewCategory(tbnamenewcat.Text);
-
+            category.NewFolder(tbnamenewcat.Text);
+            category.AddNewCategory(tbnamenewcat.Text);
         }
     }
 }

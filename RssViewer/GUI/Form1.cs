@@ -37,13 +37,14 @@ namespace GUI
             await Task.Delay(5000);
 
         }
-
+        //Knapp för att öppna addRemoveCategory.
         private void button1_Click(object sender, EventArgs e)
         {
+            
             addremove.Show();
         }
 
-        internal void FillCategoryCb()
+        public void FillCategoryCb()
         {
             string[] categoryArray = Directory.GetDirectories(Directory.GetCurrentDirectory());
 
@@ -52,7 +53,7 @@ namespace GUI
                 string[] splitCategories = c.Split('\\');
                 int i = splitCategories.Length - 1;
                 string oneCategory = splitCategories[i];
-                addremove.cbcattodelete.Items.Add(oneCategory);
+                addremove.cbchoosecattoremove.Items.Add(oneCategory);
                 cbchoosecategory.Items.Add(oneCategory);
                 cbcategory.Items.Add(oneCategory);
             }

@@ -35,10 +35,10 @@ namespace Logic
 
         public bool NewFolder(string categoryname)
         {
-            DirectorySecurity securityRules = new DirectorySecurity();
-            securityRules.AddAccessRule(new FileSystemAccessRule("Users", FileSystemRights.FullControl, AccessControlType.Allow));
+            DirectorySecurity security = new DirectorySecurity();
+            security.AddAccessRule(new FileSystemAccessRule("Users", FileSystemRights.FullControl, AccessControlType.Allow));
             
-            Directory.CreateDirectory(categoryname);
+            Directory.CreateDirectory(categoryname, security);
             return true;
         }
 
