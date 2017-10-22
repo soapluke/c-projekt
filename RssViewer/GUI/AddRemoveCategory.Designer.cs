@@ -34,6 +34,9 @@
             this.cbchoosecattoremove = new System.Windows.Forms.ComboBox();
             this.btnaddnewcat = new System.Windows.Forms.Button();
             this.btnremovecat = new System.Windows.Forms.Button();
+            this.btnchangecatname = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblnamenewcat
@@ -57,9 +60,9 @@
             this.lblchoosecattoremove.AutoSize = true;
             this.lblchoosecattoremove.Location = new System.Drawing.Point(12, 115);
             this.lblchoosecattoremove.Name = "lblchoosecattoremove";
-            this.lblchoosecattoremove.Size = new System.Drawing.Size(182, 17);
+            this.lblchoosecattoremove.Size = new System.Drawing.Size(250, 17);
             this.lblchoosecattoremove.TabIndex = 2;
-            this.lblchoosecattoremove.Text = "Choose category to remove";
+            this.lblchoosecattoremove.Text = "Choose category to remove or change";
             // 
             // cbchoosecattoremove
             // 
@@ -89,11 +92,40 @@
             this.btnremovecat.UseVisualStyleBackColor = true;
             this.btnremovecat.Click += new System.EventHandler(this.btnremovecat_Click);
             // 
+            // btnchangecatname
+            // 
+            this.btnchangecatname.Location = new System.Drawing.Point(217, 220);
+            this.btnchangecatname.Name = "btnchangecatname";
+            this.btnchangecatname.Size = new System.Drawing.Size(89, 23);
+            this.btnchangecatname.TabIndex = 6;
+            this.btnchangecatname.Text = "Change";
+            this.btnchangecatname.UseVisualStyleBackColor = true;
+            this.btnchangecatname.Click += new System.EventHandler(this.btnchangecatname_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(15, 221);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(161, 22);
+            this.textBox1.TabIndex = 7;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(13, 190);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(110, 17);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Enter new name";
+            // 
             // AddRemoveCategory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(356, 279);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btnchangecatname);
             this.Controls.Add(this.btnremovecat);
             this.Controls.Add(this.btnaddnewcat);
             this.Controls.Add(this.cbchoosecattoremove);
@@ -116,5 +148,8 @@
         internal System.Windows.Forms.ComboBox cbchoosecattoremove;
         private System.Windows.Forms.Button btnaddnewcat;
         private System.Windows.Forms.Button btnremovecat;
+        private System.Windows.Forms.Button btnchangecatname;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label1;
     }
 }

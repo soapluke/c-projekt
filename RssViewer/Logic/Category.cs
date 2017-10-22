@@ -44,5 +44,10 @@ namespace Logic
 
             Directory.Delete(path);
         }
+
+        public void ChangeCategoryName(string categoryname)
+        {
+
+        }
     }
 }

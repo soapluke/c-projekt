@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Logic;
 using System.IO;
+using Microsoft.VisualBasic;
 
 namespace GUI
 {
@@ -50,6 +51,13 @@ namespace GUI
                 category.RemoveCategory(chosencategory);
                 mainwindow.FillCategoryCb();
             }
+        }
+
+        private void btnchangecatname_Click(object sender, EventArgs e)
+        {
+            string chosencategory = cbchoosecattoremove.SelectedItem.ToString();
+
+            
         }
     }
 }
