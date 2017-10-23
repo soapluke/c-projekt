@@ -15,7 +15,7 @@ namespace Logic
         AddNewPod newPod = new AddNewPod();
         DeletePod delete = new DeletePod();
 
-        public void GetAddNewPod(string name, string url, string category, string interval = "2000")
+        public void GetAddNewPod(string name, string url, string category, string interval)
         {
             newPod.AddNew(name, url, category, interval);
         }
@@ -26,6 +26,24 @@ namespace Logic
 
             XmlDocument podxml = new XmlDocument();
             podxml.Load(path);
+
+            try
+            {
+                var url = podxml.SelectSingleNode("channel/url").InnerText;
+                int interval;
+                DateTime lastSync;
+                DateTime.TryParse(podxml.SelectSingleNode("channel/lastSync").InnerText, out lastSync);
+                int.TryParse(podxml.SelectSingleNode("channel/interval").InnerText, out interval);
+                
+                if(lastSync.AddMilliseconds(interval).CompareTo(DateTime.Now) < 0)
+                {
+                    GetAddNewPod(podcast, url, category, interval.ToString());
+                }
+            }
+            catch(Exception)
+            {
+                MessageBox.Show("Interval error.");
+            }
 
             foreach(XmlNode node in podxml.DocumentElement.SelectNodes("item"))
             {
@@ -51,20 +69,6 @@ namespace Logic
                     string trimmeddesctext = desctext.Replace("<p>", string.Empty).Replace("</p>", string.Empty);
                     epdesc.Text = trimmeddesctext;
                 }
-            }
-        }
-
-        public void GetPodcastDescription(string category, string podcast, RichTextBox poddesc)
-        {
-            string path = Directory.GetCurrentDirectory() + @"\" + category + @"\" + podcast + @".xml";
-
-            XmlDocument descxml = new XmlDocument();
-            descxml.Load(path);
-
-            foreach(XmlNode node in descxml.DocumentElement.SelectNodes("channel"))
-            {
-                var desc = node.SelectSingleNode("description");
-                poddesc.Text = desc.InnerText;
             }
         }
 

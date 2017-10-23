@@ -63,7 +63,7 @@ namespace GUI
 
             category.ChangeCategoryName(chosencategory, newcategory);
             mainwindow.FillCategoryCb();
-            MessageBox.Show($"The category '{chosencategory}' has been change to '{newcategory}'.");
+            MessageBox.Show($"The category '{chosencategory}' has been changed to '{newcategory}'.");
             tbchangecatname.Clear();
             cbchoosecattoremove.Text = "";
         }

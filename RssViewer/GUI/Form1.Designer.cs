@@ -28,13 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btnaddrss = new System.Windows.Forms.Button();
             this.tbpodurl = new System.Windows.Forms.TextBox();
             this.lbpodeps = new System.Windows.Forms.ListBox();
             this.tbpodname = new System.Windows.Forms.TextBox();
-            this.tbpoddesc = new System.Windows.Forms.RichTextBox();
             this.tbepdesc = new System.Windows.Forms.RichTextBox();
-            this.lblpoddesc = new System.Windows.Forms.Label();
             this.lblepdesc = new System.Windows.Forms.Label();
             this.lblname = new System.Windows.Forms.Label();
             this.lblurl = new System.Windows.Forms.Label();
@@ -46,15 +45,20 @@
             this.cbpodcasts = new System.Windows.Forms.ComboBox();
             this.lblpodcasts = new System.Windows.Forms.Label();
             this.btndeletepod = new System.Windows.Forms.Button();
+            this.mediaplayer = new AxWMPLib.AxWindowsMediaPlayer();
+            this.btnplaypodcast = new System.Windows.Forms.Button();
+            this.cbchooseinterval = new System.Windows.Forms.ComboBox();
+            this.lblInterval = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.mediaplayer)).BeginInit();
             this.SuspendLayout();
             // 
             // btnaddrss
             // 
-            this.btnaddrss.Location = new System.Drawing.Point(13, 286);
+            this.btnaddrss.Location = new System.Drawing.Point(13, 270);
             this.btnaddrss.Name = "btnaddrss";
-            this.btnaddrss.Size = new System.Drawing.Size(83, 23);
+            this.btnaddrss.Size = new System.Drawing.Size(148, 35);
             this.btnaddrss.TabIndex = 0;
-            this.btnaddrss.Text = "Add Pod";
+            this.btnaddrss.Text = "Add podcast";
             this.btnaddrss.UseVisualStyleBackColor = true;
             this.btnaddrss.Click += new System.EventHandler(this.btnaddrss_Click);
             // 
@@ -82,37 +86,19 @@
             this.tbpodname.Size = new System.Drawing.Size(282, 22);
             this.tbpodname.TabIndex = 3;
             // 
-            // tbpoddesc
-            // 
-            this.tbpoddesc.Location = new System.Drawing.Point(804, 136);
-            this.tbpoddesc.Name = "tbpoddesc";
-            this.tbpoddesc.ReadOnly = true;
-            this.tbpoddesc.Size = new System.Drawing.Size(343, 95);
-            this.tbpoddesc.TabIndex = 4;
-            this.tbpoddesc.Text = "";
-            // 
             // tbepdesc
             // 
-            this.tbepdesc.Location = new System.Drawing.Point(804, 286);
+            this.tbepdesc.Location = new System.Drawing.Point(804, 131);
             this.tbepdesc.Name = "tbepdesc";
             this.tbepdesc.ReadOnly = true;
             this.tbepdesc.Size = new System.Drawing.Size(343, 95);
             this.tbepdesc.TabIndex = 5;
             this.tbepdesc.Text = "";
             // 
-            // lblpoddesc
-            // 
-            this.lblpoddesc.AutoSize = true;
-            this.lblpoddesc.Location = new System.Drawing.Point(801, 105);
-            this.lblpoddesc.Name = "lblpoddesc";
-            this.lblpoddesc.Size = new System.Drawing.Size(132, 17);
-            this.lblpoddesc.TabIndex = 6;
-            this.lblpoddesc.Text = "Podcast description";
-            // 
             // lblepdesc
             // 
             this.lblepdesc.AutoSize = true;
-            this.lblepdesc.Location = new System.Drawing.Point(801, 254);
+            this.lblepdesc.Location = new System.Drawing.Point(801, 105);
             this.lblepdesc.Name = "lblepdesc";
             this.lblepdesc.Size = new System.Drawing.Size(132, 17);
             this.lblepdesc.TabIndex = 7;
@@ -203,19 +189,60 @@
             // 
             // btndeletepod
             // 
-            this.btndeletepod.Location = new System.Drawing.Point(804, 401);
+            this.btndeletepod.Location = new System.Drawing.Point(1018, 286);
             this.btndeletepod.Name = "btndeletepod";
-            this.btndeletepod.Size = new System.Drawing.Size(129, 30);
+            this.btndeletepod.Size = new System.Drawing.Size(129, 38);
             this.btndeletepod.TabIndex = 17;
             this.btndeletepod.Text = "Delete podcast";
             this.btndeletepod.UseVisualStyleBackColor = true;
             this.btndeletepod.Click += new System.EventHandler(this.btndeletepod_Click);
             // 
+            // mediaplayer
+            // 
+            this.mediaplayer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.mediaplayer.Enabled = true;
+            this.mediaplayer.Location = new System.Drawing.Point(0, 448);
+            this.mediaplayer.Name = "mediaplayer";
+            this.mediaplayer.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("mediaplayer.OcxState")));
+            this.mediaplayer.Size = new System.Drawing.Size(1170, 45);
+            this.mediaplayer.TabIndex = 18;
+            // 
+            // btnplaypodcast
+            // 
+            this.btnplaypodcast.Location = new System.Drawing.Point(1018, 232);
+            this.btnplaypodcast.Name = "btnplaypodcast";
+            this.btnplaypodcast.Size = new System.Drawing.Size(129, 38);
+            this.btnplaypodcast.TabIndex = 19;
+            this.btnplaypodcast.Text = "Play podcast";
+            this.btnplaypodcast.UseVisualStyleBackColor = true;
+            this.btnplaypodcast.Click += new System.EventHandler(this.btnplaypodcast_Click);
+            // 
+            // cbchooseinterval
+            // 
+            this.cbchooseinterval.FormattingEnabled = true;
+            this.cbchooseinterval.Location = new System.Drawing.Point(15, 217);
+            this.cbchooseinterval.Name = "cbchooseinterval";
+            this.cbchooseinterval.Size = new System.Drawing.Size(146, 24);
+            this.cbchooseinterval.TabIndex = 20;
+            // 
+            // lblInterval
+            // 
+            this.lblInterval.AutoSize = true;
+            this.lblInterval.Location = new System.Drawing.Point(12, 197);
+            this.lblInterval.Name = "lblInterval";
+            this.lblInterval.Size = new System.Drawing.Size(106, 17);
+            this.lblInterval.TabIndex = 21;
+            this.lblInterval.Text = "Choose interval";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1170, 545);
+            this.ClientSize = new System.Drawing.Size(1170, 701);
+            this.Controls.Add(this.lblInterval);
+            this.Controls.Add(this.cbchooseinterval);
+            this.Controls.Add(this.btnplaypodcast);
+            this.Controls.Add(this.mediaplayer);
             this.Controls.Add(this.btndeletepod);
             this.Controls.Add(this.lblpodcasts);
             this.Controls.Add(this.cbpodcasts);
@@ -227,15 +254,14 @@
             this.Controls.Add(this.lblurl);
             this.Controls.Add(this.lblname);
             this.Controls.Add(this.lblepdesc);
-            this.Controls.Add(this.lblpoddesc);
             this.Controls.Add(this.tbepdesc);
-            this.Controls.Add(this.tbpoddesc);
             this.Controls.Add(this.tbpodname);
             this.Controls.Add(this.lbpodeps);
             this.Controls.Add(this.tbpodurl);
             this.Controls.Add(this.btnaddrss);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.mediaplayer)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -247,9 +273,7 @@
         private System.Windows.Forms.TextBox tbpodurl;
         private System.Windows.Forms.ListBox lbpodeps;
         private System.Windows.Forms.TextBox tbpodname;
-        private System.Windows.Forms.RichTextBox tbpoddesc;
         private System.Windows.Forms.RichTextBox tbepdesc;
-        private System.Windows.Forms.Label lblpoddesc;
         private System.Windows.Forms.Label lblepdesc;
         private System.Windows.Forms.Label lblname;
         private System.Windows.Forms.Label lblurl;
@@ -261,6 +285,10 @@
         private System.Windows.Forms.ComboBox cbpodcasts;
         private System.Windows.Forms.Label lblpodcasts;
         private System.Windows.Forms.Button btndeletepod;
+        private AxWMPLib.AxWindowsMediaPlayer mediaplayer;
+        private System.Windows.Forms.Button btnplaypodcast;
+        private System.Windows.Forms.ComboBox cbchooseinterval;
+        private System.Windows.Forms.Label lblInterval;
     }
 }
 
