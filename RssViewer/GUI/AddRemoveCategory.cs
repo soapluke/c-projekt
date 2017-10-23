@@ -37,6 +37,7 @@ namespace GUI
         {
             category.NewFolder(tbnamenewcat.Text);
             MessageBox.Show($"The category {tbnamenewcat.Text} has been added.");
+            tbnamenewcat.Text = "";
             mainwindow.FillCategoryCb();
 
         }
@@ -49,6 +50,7 @@ namespace GUI
             if (yesno == DialogResult.Yes)
             {
                 category.RemoveCategory(chosencategory);
+                cbchoosecattoremove.Text = "";
                 mainwindow.FillCategoryCb();
             }
         }
@@ -57,7 +59,13 @@ namespace GUI
         {
             string chosencategory = cbchoosecattoremove.SelectedItem.ToString();
 
-            
+            string newcategory = tbchangecatname.Text;
+
+            category.ChangeCategoryName(chosencategory, newcategory);
+            mainwindow.FillCategoryCb();
+            MessageBox.Show($"The category '{chosencategory}' has been change to '{newcategory}'.");
+            tbchangecatname.Clear();
+            cbchoosecattoremove.Text = "";
         }
     }
 }

@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddNewPod.cs" />
+    <Compile Include="DeletePod.cs" />
     <Compile Include="Rss.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

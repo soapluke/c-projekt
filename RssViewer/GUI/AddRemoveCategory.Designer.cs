@@ -35,7 +35,7 @@
             this.btnaddnewcat = new System.Windows.Forms.Button();
             this.btnremovecat = new System.Windows.Forms.Button();
             this.btnchangecatname = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbchangecatname = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -102,12 +102,12 @@
             this.btnchangecatname.UseVisualStyleBackColor = true;
             this.btnchangecatname.Click += new System.EventHandler(this.btnchangecatname_Click);
             // 
-            // textBox1
+            // tbchangecatname
             // 
-            this.textBox1.Location = new System.Drawing.Point(15, 221);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(161, 22);
-            this.textBox1.TabIndex = 7;
+            this.tbchangecatname.Location = new System.Drawing.Point(15, 221);
+            this.tbchangecatname.Name = "tbchangecatname";
+            this.tbchangecatname.Size = new System.Drawing.Size(161, 22);
+            this.tbchangecatname.TabIndex = 7;
             // 
             // label1
             // 
@@ -124,7 +124,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(356, 279);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tbchangecatname);
             this.Controls.Add(this.btnchangecatname);
             this.Controls.Add(this.btnremovecat);
             this.Controls.Add(this.btnaddnewcat);
@@ -149,7 +149,7 @@
         private System.Windows.Forms.Button btnaddnewcat;
         private System.Windows.Forms.Button btnremovecat;
         private System.Windows.Forms.Button btnchangecatname;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbchangecatname;
         private System.Windows.Forms.Label label1;
     }
 }

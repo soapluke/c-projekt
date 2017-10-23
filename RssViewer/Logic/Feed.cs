@@ -13,6 +13,7 @@ namespace Logic
     public class Feed
     {
         AddNewPod newPod = new AddNewPod();
+        DeletePod delete = new DeletePod();
 
         public void GetAddNewPod(string name, string url, string category, string interval = "2000")
         {
@@ -65,6 +66,11 @@ namespace Logic
                 var desc = node.SelectSingleNode("description");
                 poddesc.Text = desc.InnerText;
             }
+        }
+
+        public void GetDeletePod(string category, string podname)
+        {
+            delete.Delete(category, podname);
         }
     }
 }

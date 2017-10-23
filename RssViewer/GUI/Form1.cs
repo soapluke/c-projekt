@@ -103,5 +103,19 @@ namespace GUI
         {
             FillCategoryCb();
         }
+
+        private void btndeletepod_Click(object sender, EventArgs e)
+        {
+            string chosenpodcast = cbpodcasts.SelectedItem.ToString();
+            DialogResult yesno = MessageBox.Show($"Are you sure you want to delete {chosenpodcast}?", "Confirm delete", MessageBoxButtons.YesNo);
+
+            if (yesno == DialogResult.Yes)
+            {
+                feed.GetDeletePod(cbcategory.SelectedItem.ToString(), cbpodcasts.SelectedItem.ToString());
+                cbpodcasts.Text = "";
+                lbpodeps.Items.Clear();
+                tbepdesc.Clear();
+            }
+        }
     }
 }

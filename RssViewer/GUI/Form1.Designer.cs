@@ -45,6 +45,7 @@
             this.lblcategory = new System.Windows.Forms.Label();
             this.cbpodcasts = new System.Windows.Forms.ComboBox();
             this.lblpodcasts = new System.Windows.Forms.Label();
+            this.btndeletepod = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnaddrss
@@ -200,11 +201,22 @@
             this.lblpodcasts.TabIndex = 16;
             this.lblpodcasts.Text = "Podcasts";
             // 
+            // btndeletepod
+            // 
+            this.btndeletepod.Location = new System.Drawing.Point(804, 401);
+            this.btndeletepod.Name = "btndeletepod";
+            this.btndeletepod.Size = new System.Drawing.Size(129, 30);
+            this.btndeletepod.TabIndex = 17;
+            this.btndeletepod.Text = "Delete podcast";
+            this.btndeletepod.UseVisualStyleBackColor = true;
+            this.btndeletepod.Click += new System.EventHandler(this.btndeletepod_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1170, 545);
+            this.Controls.Add(this.btndeletepod);
             this.Controls.Add(this.lblpodcasts);
             this.Controls.Add(this.cbpodcasts);
             this.Controls.Add(this.lblcategory);
@@ -248,6 +260,7 @@
         private System.Windows.Forms.Label lblcategory;
         private System.Windows.Forms.ComboBox cbpodcasts;
         private System.Windows.Forms.Label lblpodcasts;
+        private System.Windows.Forms.Button btndeletepod;
     }
 }
 
