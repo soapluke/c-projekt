@@ -57,6 +57,7 @@
             this.lblstatusempty = new System.Windows.Forms.Label();
             this.lblintervalempty = new System.Windows.Forms.Label();
             this.lbllastsyncedempty = new System.Windows.Forms.Label();
+            this.btnmovepodcast = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.mediaplayer)).BeginInit();
             this.SuspendLayout();
             // 
@@ -197,7 +198,7 @@
             // 
             // btndeletepod
             // 
-            this.btndeletepod.Location = new System.Drawing.Point(1018, 391);
+            this.btndeletepod.Location = new System.Drawing.Point(1018, 392);
             this.btndeletepod.Name = "btndeletepod";
             this.btndeletepod.Size = new System.Drawing.Size(129, 38);
             this.btndeletepod.TabIndex = 17;
@@ -209,7 +210,7 @@
             // 
             this.mediaplayer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.mediaplayer.Enabled = true;
-            this.mediaplayer.Location = new System.Drawing.Point(0, 448);
+            this.mediaplayer.Location = new System.Drawing.Point(1, 509);
             this.mediaplayer.Name = "mediaplayer";
             this.mediaplayer.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("mediaplayer.OcxState")));
             this.mediaplayer.Size = new System.Drawing.Size(1170, 45);
@@ -217,7 +218,7 @@
             // 
             // btnplaypodcast
             // 
-            this.btnplaypodcast.Location = new System.Drawing.Point(1018, 343);
+            this.btnplaypodcast.Location = new System.Drawing.Point(1018, 304);
             this.btnplaypodcast.Name = "btnplaypodcast";
             this.btnplaypodcast.Size = new System.Drawing.Size(129, 38);
             this.btnplaypodcast.TabIndex = 19;
@@ -310,11 +311,22 @@
             this.lbllastsyncedempty.Size = new System.Drawing.Size(0, 17);
             this.lbllastsyncedempty.TabIndex = 29;
             // 
+            // btnmovepodcast
+            // 
+            this.btnmovepodcast.Location = new System.Drawing.Point(1018, 348);
+            this.btnmovepodcast.Name = "btnmovepodcast";
+            this.btnmovepodcast.Size = new System.Drawing.Size(129, 38);
+            this.btnmovepodcast.TabIndex = 30;
+            this.btnmovepodcast.Text = "Change podcast";
+            this.btnmovepodcast.UseVisualStyleBackColor = true;
+            this.btnmovepodcast.Click += new System.EventHandler(this.btnmovepodcast_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1170, 701);
+            this.Controls.Add(this.btnmovepodcast);
             this.Controls.Add(this.lbllastsyncedempty);
             this.Controls.Add(this.lblintervalempty);
             this.Controls.Add(this.lblstatusempty);
@@ -381,6 +393,7 @@
         private System.Windows.Forms.Label lblstatusempty;
         private System.Windows.Forms.Label lblintervalempty;
         private System.Windows.Forms.Label lbllastsyncedempty;
+        private System.Windows.Forms.Button btnmovepodcast;
     }
 }
 

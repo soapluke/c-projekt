@@ -101,8 +101,8 @@ namespace Logic
             var interval = podstatusxml.SelectSingleNode("channel/interval");
             var lastsync = podstatusxml.SelectSingleNode("channel/lastSync");
 
-            string k = interval.InnerText;
-            bool j = int.TryParse(k, out int index);
+            string intervaltext = interval.InnerText;
+            bool intervalint = int.TryParse(intervaltext, out int index);
             string converted = "";
             switch (index)
             {

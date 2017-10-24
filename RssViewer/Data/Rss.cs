@@ -7,7 +7,7 @@ using System.Xml;
 
 namespace Data
 {
-    public class Rss
+    public abstract class Rss
     {
         public XmlDocument RssReader(string url) {
 

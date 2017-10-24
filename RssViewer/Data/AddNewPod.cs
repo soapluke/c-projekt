@@ -8,14 +8,12 @@ using System.Xml;
 
 namespace Data
 {
-    public class AddNewPod
+    public class AddNewPod : Rss
     {
-        public static List<string> newPodList = new List<string>();
 
         public void AddNew(string name, string url, string category, string interval)
         {
-            Rss rss = new Rss();
-            XmlDocument doc = rss.RssReader(url);
+            XmlDocument doc = RssReader(url);
             string path = Directory.GetCurrentDirectory() + @"\" + category + @"\" + name + @".xml";
             XmlWriterSettings settings = new XmlWriterSettings();
             settings.Indent = true;

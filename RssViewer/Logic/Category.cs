@@ -7,11 +7,13 @@ using System.IO;
 using System.Windows.Forms;
 using System.Xml;
 using System.Security.AccessControl;
+using Data;
 
 namespace Logic
 {
     public class Category
     {
+        ChangePodcast movepod = new ChangePodcast();
         List<Category> categoryList = new List<Category>();
 
         public bool NewFolder(string categoryname)
@@ -42,7 +44,7 @@ namespace Logic
         {
             string path = Directory.GetCurrentDirectory() + @"\" + categoryname;
 
-            Directory.Delete(path);
+            Directory.Delete(path, true);
         }
 
         public void ChangeCategoryName(string categoryname, string newcategoryname)
@@ -50,6 +52,11 @@ namespace Logic
             string path = Directory.GetCurrentDirectory() + @"\" + categoryname;
 
             Directory.Move(categoryname, newcategoryname);
+        }
+
+        public void GetMovePod(string oldcategory, string newcategory, string podcast)
+        {
+            movepod.Move(oldcategory, newcategory, podcast);
         }
     }
 }
