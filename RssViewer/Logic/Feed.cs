@@ -14,6 +14,7 @@ namespace Logic
     {
         AddNewPod newPod = new AddNewPod();
         DeletePod delete = new DeletePod();
+        ChangePodcast changepod = new ChangePodcast();
 
         public void GetAddNewPod(string name, string url, string category, string interval)
         {
@@ -121,6 +122,33 @@ namespace Logic
             }
             podinterval.Text = converted;
             lastsynced.Text = lastsync.InnerText;
+        }
+
+        public string GetInterval(ComboBox combobox)
+        {
+            string interval = "";
+            int index = combobox.SelectedIndex;
+
+            switch (index)
+            {
+                case 0:
+                    interval = "3600000";
+                    break;
+                case 1:
+                    interval = "7200000";
+                    break;
+                case 2:
+                    interval = "21600000";
+                    break;
+                case 3:
+                    interval = "43200000";
+                    break;
+            }
+            return interval;
+        }
+        public void GetChangeInterval(string category, string podname, ComboBox combobox)
+        {
+            changepod.ChangeInterval(category, podname, GetInterval(combobox));
         }
 
         public void GetDeletePod(string category, string podname)

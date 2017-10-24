@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
 
 namespace Data
 {
@@ -24,11 +25,20 @@ namespace Data
             }
         }
 
-        public void ChangeInterval(string category, string podcast)
+        public void ChangeInterval(string category, string podcast, string interval)
         {
             string path = Directory.GetCurrentDirectory() + @"\" + category + @"\" + podcast + @".xml";
 
+            XmlDocument intervalxml = new XmlDocument();
+            intervalxml.Load(path);
 
+            foreach (XmlNode node in intervalxml.DocumentElement.SelectNodes("channel/item"))
+            {
+                var oldinterval = node.SelectSingleNode("interval");
+                oldinterval.InnerText = interval;
+                intervalxml.Save(path);
+
+            }
         }
     }
 }

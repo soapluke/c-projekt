@@ -78,6 +78,7 @@
             this.btnchangeinterval.TabIndex = 4;
             this.btnchangeinterval.Text = "Change";
             this.btnchangeinterval.UseVisualStyleBackColor = true;
+            this.btnchangeinterval.Click += new System.EventHandler(this.btnchangeinterval_Click);
             // 
             // lblchangeinterval
             // 

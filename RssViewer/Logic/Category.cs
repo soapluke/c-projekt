@@ -22,24 +22,6 @@ namespace Logic
             return true;
         }
 
-        //public void AddNewCategory(string categoryname)
-        //{
-        //    string path = Directory.GetCurrentDirectory() + @"\" + categoryname;
-        //    XmlWriterSettings settings = new XmlWriterSettings();
-        //    settings.Indent = true;
-        //    settings.IndentChars = ("    ");
-
-        //    XmlWriter writeXml = XmlWriter.Create(path, settings);
-
-        //    writeXml.WriteStartDocument();
-        //    writeXml.WriteStartElement("channel");
-
-        //    writeXml.WriteEndDocument();
-        //    writeXml.Close();
-
-
-        //}
-
         public void RemoveCategory(string categoryname)
         {
             string path = Directory.GetCurrentDirectory() + @"\" + categoryname;

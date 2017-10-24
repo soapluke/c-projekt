@@ -43,7 +43,7 @@ namespace GUI
 
         public async Task AddPodCastAsync()
         {
-            feed.GetAddNewPod(tbpodname.Text, tbpodurl.Text, cbchoosecategory.SelectedItem.ToString(), GetInterval());
+            feed.GetAddNewPod(tbpodname.Text, tbpodurl.Text, cbchoosecategory.SelectedItem.ToString(), feed.GetInterval(cbchooseinterval));
             lbpodeps.Items.Clear();
             await Task.Delay(2000);
         }
@@ -101,29 +101,6 @@ namespace GUI
             changepod.cbchangeinterval.Items.Add("Two hours.");
             changepod.cbchangeinterval.Items.Add("Six hours.");
             changepod.cbchangeinterval.Items.Add("Twelve hours.");
-        }
-
-        public string GetInterval()
-        {
-            string interval = "";
-            int index = cbchooseinterval.SelectedIndex;
-
-            switch (index)
-            {
-                case 0:
-                    interval = "3600000";
-                    break;
-                case 1:
-                    interval = "7200000";
-                    break;
-                case 2:
-                    interval = "21600000";
-                    break;
-                case 3:
-                    interval = "43200000";
-                    break;
-            }
-            return interval;
         }
 
         private void ClearAllPodInfo()
