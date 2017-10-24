@@ -6,3 +6,11 @@ C:\Users\Lukas\Source\Repos\c-projekt\RssViewer\Logic\obj\Debug\Logic.csprojReso
 C:\Users\Lukas\Source\Repos\c-projekt\RssViewer\Logic\obj\Debug\Logic.csproj.CoreCompileInputs.cache
 C:\Users\Lukas\Source\Repos\c-projekt\RssViewer\Logic\obj\Debug\Logic.dll
 C:\Users\Lukas\Source\Repos\c-projekt\RssViewer\Logic\obj\Debug\Logic.pdb
+C:\Users\Emma_\Source\Repos\c-projekt\RssViewer\Logic\bin\Debug\Logic.dll
+C:\Users\Emma_\Source\Repos\c-projekt\RssViewer\Logic\bin\Debug\Logic.pdb
+C:\Users\Emma_\Source\Repos\c-projekt\RssViewer\Logic\bin\Debug\Data.dll
+C:\Users\Emma_\Source\Repos\c-projekt\RssViewer\Logic\bin\Debug\Data.pdb
+C:\Users\Emma_\Source\Repos\c-projekt\RssViewer\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache
+C:\Users\Emma_\Source\Repos\c-projekt\RssViewer\Logic\obj\Debug\Logic.csproj.CoreCompileInputs.cache
+C:\Users\Emma_\Source\Repos\c-projekt\RssViewer\Logic\obj\Debug\Logic.dll
+C:\Users\Emma_\Source\Repos\c-projekt\RssViewer\Logic\obj\Debug\Logic.pdb

@@ -25,20 +25,15 @@ namespace Data
             }
         }
 
-        public void ChangeInterval(string category, string podcast, string interval)
+        public void ChangeInterval(string category, string podname, string interval)
         {
-            string path = Directory.GetCurrentDirectory() + @"\" + category + @"\" + podcast + @".xml";
-
+            string path = Directory.GetCurrentDirectory() + @"\" + category + @"\" + podname + @".xml";
             XmlDocument intervalxml = new XmlDocument();
             intervalxml.Load(path);
 
-            foreach (XmlNode node in intervalxml.DocumentElement.SelectNodes("channel/item"))
-            {
-                var oldinterval = node.SelectSingleNode("interval");
-                oldinterval.InnerText = interval;
-                intervalxml.Save(path);
-
-            }
+            var intervalnode = intervalxml.SelectSingleNode("channel/interval");
+            intervalnode.InnerText = interval;
+            intervalxml.Save(path);
         }
     }
 }

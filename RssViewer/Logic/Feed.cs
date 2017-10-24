@@ -146,6 +146,7 @@ namespace Logic
             }
             return interval;
         }
+
         public void GetChangeInterval(string category, string podname, ComboBox combobox)
         {
             changepod.ChangeInterval(category, podname, GetInterval(combobox));

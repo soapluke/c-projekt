@@ -45,6 +45,7 @@ namespace GUI
             {
                 feed.GetChangeInterval(categoryname, podname, cbchangeinterval);
                 MessageBox.Show($"The podcast has changed interval to {cbchangeinterval.SelectedItem.ToString()}");
+                this.Hide();
             }
         }
     }
