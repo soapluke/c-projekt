@@ -18,7 +18,7 @@ namespace GUI
         AddRemoveCategory addremove;
         Feed feed = new Feed();
         PlayPodcast playpod = new PlayPodcast();
-        //WindowsMediaPlayer player = new WindowsMediaPlayer();
+        Validation validation = new Validation();
         public List<String> podList = new List<String>();
 
         public Form1()
@@ -31,11 +31,14 @@ namespace GUI
 
         private async void btnaddrss_Click(object sender, EventArgs e)
         {
-            string name = tbpodname.Text;
-            string category = cbchoosecategory.SelectedItem.ToString();
-            await AddPodCastAsync();
-            ClearAllAddPod();
-            MessageBox.Show($"'{name}' has been added to the '{category}' category.");
+            if(validation.CheckTextboxEmpty(tbpodname) && validation.CheckTextboxEmpty(tbpodurl) && validation.CheckIfComboboxSelected(cbchoosecategory) && validation.CheckIfComboboxSelected(cbchooseinterval))
+            {
+                string name = tbpodname.Text;
+                string category = cbchoosecategory.SelectedItem.ToString();
+                await AddPodCastAsync();
+                ClearAllAddPod();
+                MessageBox.Show($"'{name}' has been added to the '{category}' category.");
+            }
         }
 
         public async Task AddPodCastAsync()

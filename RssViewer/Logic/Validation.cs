@@ -23,5 +23,18 @@ namespace Logic
                 return true;
             }
         }
+
+        public bool CheckIfComboboxSelected(ComboBox box)
+        {
+            if(box.SelectedIndex == -1)
+            {
+                MessageBox.Show("You have to choose from the dropdown menu.");
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
     }
 }
