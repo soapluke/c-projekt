@@ -72,6 +72,57 @@ namespace Logic
             }
         }
 
+        public void GetEpisodeInfo(string category, string podcast, string avsnitt, Label epname, Label epstatus)
+        {
+            string path = Directory.GetCurrentDirectory() + @"\" + category + @"\" + podcast + @".xml";
+
+            XmlDocument epstatusxml = new XmlDocument();
+            epstatusxml.Load(path);
+
+            foreach (XmlNode item in epstatusxml.DocumentElement.SelectNodes("item"))
+            {
+                var title = item.SelectSingleNode("title");
+                var status = item.SelectSingleNode("status");
+                if (avsnitt.Equals(title.InnerText))
+                {
+                    epname.Text = title.InnerText;
+                    epstatus.Text = status.InnerText;
+                }
+            }
+        }
+
+        public void GetPodcastInfo(string category, string podcast, Label lastsynced, Label podinterval)
+        {
+            string path = Directory.GetCurrentDirectory() + @"\" + category + @"\" + podcast + @".xml";
+
+            XmlDocument podstatusxml = new XmlDocument();
+            podstatusxml.Load(path);
+
+            var interval = podstatusxml.SelectSingleNode("channel/interval");
+            var lastsync = podstatusxml.SelectSingleNode("channel/lastSync");
+
+            string k = interval.InnerText;
+            bool j = int.TryParse(k, out int index);
+            string converted = "";
+            switch (index)
+            {
+                case 3600000:
+                    converted = "One hour.";
+                    break;
+                case 7200000:
+                    converted = "Two hours.";
+                    break;
+                case 21600000:
+                    converted = "Six hours.";
+                    break;
+                case 43200000:
+                    converted = "Twelve hours.";
+                    break;
+            }
+            podinterval.Text = converted;
+            lastsynced.Text = lastsync.InnerText;
+        }
+
         public void GetDeletePod(string category, string podname)
         {
             delete.Delete(category, podname);

@@ -48,7 +48,15 @@
             this.mediaplayer = new AxWMPLib.AxWindowsMediaPlayer();
             this.btnplaypodcast = new System.Windows.Forms.Button();
             this.cbchooseinterval = new System.Windows.Forms.ComboBox();
-            this.lblInterval = new System.Windows.Forms.Label();
+            this.lblchooseinterval = new System.Windows.Forms.Label();
+            this.lblepname = new System.Windows.Forms.Label();
+            this.lblstatus = new System.Windows.Forms.Label();
+            this.lblinterval = new System.Windows.Forms.Label();
+            this.lbllastsynced = new System.Windows.Forms.Label();
+            this.lblepnameempty = new System.Windows.Forms.Label();
+            this.lblstatusempty = new System.Windows.Forms.Label();
+            this.lblintervalempty = new System.Windows.Forms.Label();
+            this.lbllastsyncedempty = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.mediaplayer)).BeginInit();
             this.SuspendLayout();
             // 
@@ -189,7 +197,7 @@
             // 
             // btndeletepod
             // 
-            this.btndeletepod.Location = new System.Drawing.Point(1018, 286);
+            this.btndeletepod.Location = new System.Drawing.Point(1018, 391);
             this.btndeletepod.Name = "btndeletepod";
             this.btndeletepod.Size = new System.Drawing.Size(129, 38);
             this.btndeletepod.TabIndex = 17;
@@ -209,7 +217,7 @@
             // 
             // btnplaypodcast
             // 
-            this.btnplaypodcast.Location = new System.Drawing.Point(1018, 232);
+            this.btnplaypodcast.Location = new System.Drawing.Point(1018, 343);
             this.btnplaypodcast.Name = "btnplaypodcast";
             this.btnplaypodcast.Size = new System.Drawing.Size(129, 38);
             this.btnplaypodcast.TabIndex = 19;
@@ -225,21 +233,97 @@
             this.cbchooseinterval.Size = new System.Drawing.Size(146, 24);
             this.cbchooseinterval.TabIndex = 20;
             // 
-            // lblInterval
+            // lblchooseinterval
             // 
-            this.lblInterval.AutoSize = true;
-            this.lblInterval.Location = new System.Drawing.Point(12, 197);
-            this.lblInterval.Name = "lblInterval";
-            this.lblInterval.Size = new System.Drawing.Size(106, 17);
-            this.lblInterval.TabIndex = 21;
-            this.lblInterval.Text = "Choose interval";
+            this.lblchooseinterval.AutoSize = true;
+            this.lblchooseinterval.Location = new System.Drawing.Point(12, 197);
+            this.lblchooseinterval.Name = "lblchooseinterval";
+            this.lblchooseinterval.Size = new System.Drawing.Size(106, 17);
+            this.lblchooseinterval.TabIndex = 21;
+            this.lblchooseinterval.Text = "Choose interval";
+            // 
+            // lblepname
+            // 
+            this.lblepname.AutoSize = true;
+            this.lblepname.Location = new System.Drawing.Point(804, 233);
+            this.lblepname.Name = "lblepname";
+            this.lblepname.Size = new System.Drawing.Size(102, 17);
+            this.lblepname.TabIndex = 22;
+            this.lblepname.Text = "Episode name:";
+            // 
+            // lblstatus
+            // 
+            this.lblstatus.AutoSize = true;
+            this.lblstatus.Location = new System.Drawing.Point(804, 261);
+            this.lblstatus.Name = "lblstatus";
+            this.lblstatus.Size = new System.Drawing.Size(52, 17);
+            this.lblstatus.TabIndex = 23;
+            this.lblstatus.Text = "Status:";
+            // 
+            // lblinterval
+            // 
+            this.lblinterval.AutoSize = true;
+            this.lblinterval.Location = new System.Drawing.Point(804, 47);
+            this.lblinterval.Name = "lblinterval";
+            this.lblinterval.Size = new System.Drawing.Size(58, 17);
+            this.lblinterval.TabIndex = 24;
+            this.lblinterval.Text = "Interval:";
+            // 
+            // lbllastsynced
+            // 
+            this.lbllastsynced.AutoSize = true;
+            this.lbllastsynced.Location = new System.Drawing.Point(804, 18);
+            this.lbllastsynced.Name = "lbllastsynced";
+            this.lbllastsynced.Size = new System.Drawing.Size(88, 17);
+            this.lbllastsynced.TabIndex = 25;
+            this.lbllastsynced.Text = "Last synced:";
+            // 
+            // lblepnameempty
+            // 
+            this.lblepnameempty.AutoSize = true;
+            this.lblepnameempty.Location = new System.Drawing.Point(928, 233);
+            this.lblepnameempty.Name = "lblepnameempty";
+            this.lblepnameempty.Size = new System.Drawing.Size(0, 17);
+            this.lblepnameempty.TabIndex = 26;
+            // 
+            // lblstatusempty
+            // 
+            this.lblstatusempty.AutoSize = true;
+            this.lblstatusempty.Location = new System.Drawing.Point(928, 261);
+            this.lblstatusempty.Name = "lblstatusempty";
+            this.lblstatusempty.Size = new System.Drawing.Size(0, 17);
+            this.lblstatusempty.TabIndex = 27;
+            // 
+            // lblintervalempty
+            // 
+            this.lblintervalempty.AutoSize = true;
+            this.lblintervalempty.Location = new System.Drawing.Point(928, 47);
+            this.lblintervalempty.Name = "lblintervalempty";
+            this.lblintervalempty.Size = new System.Drawing.Size(0, 17);
+            this.lblintervalempty.TabIndex = 28;
+            // 
+            // lbllastsyncedempty
+            // 
+            this.lbllastsyncedempty.AutoSize = true;
+            this.lbllastsyncedempty.Location = new System.Drawing.Point(928, 18);
+            this.lbllastsyncedempty.Name = "lbllastsyncedempty";
+            this.lbllastsyncedempty.Size = new System.Drawing.Size(0, 17);
+            this.lbllastsyncedempty.TabIndex = 29;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1170, 701);
-            this.Controls.Add(this.lblInterval);
+            this.Controls.Add(this.lbllastsyncedempty);
+            this.Controls.Add(this.lblintervalempty);
+            this.Controls.Add(this.lblstatusempty);
+            this.Controls.Add(this.lblepnameempty);
+            this.Controls.Add(this.lbllastsynced);
+            this.Controls.Add(this.lblinterval);
+            this.Controls.Add(this.lblstatus);
+            this.Controls.Add(this.lblepname);
+            this.Controls.Add(this.lblchooseinterval);
             this.Controls.Add(this.cbchooseinterval);
             this.Controls.Add(this.btnplaypodcast);
             this.Controls.Add(this.mediaplayer);
@@ -288,7 +372,15 @@
         private AxWMPLib.AxWindowsMediaPlayer mediaplayer;
         private System.Windows.Forms.Button btnplaypodcast;
         private System.Windows.Forms.ComboBox cbchooseinterval;
-        private System.Windows.Forms.Label lblInterval;
+        private System.Windows.Forms.Label lblchooseinterval;
+        private System.Windows.Forms.Label lblepname;
+        private System.Windows.Forms.Label lblstatus;
+        private System.Windows.Forms.Label lblinterval;
+        private System.Windows.Forms.Label lbllastsynced;
+        private System.Windows.Forms.Label lblepnameempty;
+        private System.Windows.Forms.Label lblstatusempty;
+        private System.Windows.Forms.Label lblintervalempty;
+        private System.Windows.Forms.Label lbllastsyncedempty;
     }
 }
 

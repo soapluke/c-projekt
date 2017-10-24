@@ -22,12 +22,11 @@ namespace Data
             settings.IndentChars = ("    ");
 
             int i = 0;
-            //var poddescription = doc.DocumentElement.SelectSingleNode("description");
+
             XmlWriter writeXml = XmlWriter.Create(path, settings);
 
             writeXml.WriteStartDocument();
             writeXml.WriteStartElement("channel");
-            //writeXml.WriteElementString("description", poddescription.InnerText);
             writeXml.WriteElementString("interval", interval);
             writeXml.WriteElementString("url", url);
             writeXml.WriteElementString("lastSync", DateTime.Now.ToString());

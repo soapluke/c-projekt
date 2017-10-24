@@ -31,14 +31,18 @@ namespace GUI
 
         private async void btnaddrss_Click(object sender, EventArgs e)
         {
+            string name = tbpodname.Text;
+            string category = cbchoosecategory.SelectedItem.ToString();
             await AddPodCastAsync();
+            ClearAllAddPod();
+            MessageBox.Show($"'{name}' has been added to the '{category}' category.");
         }
 
         public async Task AddPodCastAsync()
         {
             feed.GetAddNewPod(tbpodname.Text, tbpodurl.Text, cbchoosecategory.SelectedItem.ToString(), GetInterval());
             lbpodeps.Items.Clear();
-            await Task.Delay(5000);
+            await Task.Delay(2000);
         }
         //Knapp för att öppna AddRemoveCategory.
         private void button1_Click(object sender, EventArgs e)
@@ -66,6 +70,7 @@ namespace GUI
 
         public void FillPodcastCb(ComboBox category, ComboBox podcasts)
         {
+            podcasts.Text = "";
             podcasts.Items.Clear();
             string categorystring = category.SelectedItem.ToString();
             string[] podcastArray = Directory.GetFiles(categorystring);
@@ -112,8 +117,27 @@ namespace GUI
             return interval;
         }
 
+        private void ClearAllPodInfo()
+        {
+            lblintervalempty.Text = "";
+            lblepnameempty.Text = "";
+            lbllastsyncedempty.Text = "";
+            lblstatusempty.Text = "";
+            lbpodeps.Items.Clear();
+            tbepdesc.Text = "";
+        }
+
+        private void ClearAllAddPod()
+        {
+            tbpodname.Text = "";
+            tbpodurl.Text = "";
+            cbchoosecategory.Text = "";
+            cbchooseinterval.Text = "";
+        }
+
         private void cbcategory_SelectedIndexChanged(object sender, EventArgs e)
         {
+            ClearAllPodInfo();
             FillPodcastCb(cbcategory, cbpodcasts);
         }
 
@@ -124,12 +148,15 @@ namespace GUI
 
         private void cbpodcasts_SelectedIndexChanged(object sender, EventArgs e)
         {
+            ClearAllPodInfo();
             feed.GetEpisodes(cbcategory.SelectedItem.ToString(), cbpodcasts.SelectedItem.ToString(), lbpodeps);
+            feed.GetPodcastInfo(cbcategory.SelectedItem.ToString(), cbpodcasts.SelectedItem.ToString(), lbllastsyncedempty, lblintervalempty);
         }
 
         private void lbpodeps_SelectedIndexChanged(object sender, EventArgs e)
         {
             feed.GetEpisodeDescription(cbcategory.SelectedItem.ToString(), cbpodcasts.SelectedItem.ToString(), lbpodeps.SelectedItem.ToString(), tbepdesc);
+            feed.GetEpisodeInfo(cbcategory.SelectedItem.ToString(), cbpodcasts.SelectedItem.ToString(), lbpodeps.SelectedItem.ToString(), lblepnameempty, lblstatusempty);
         }
 
         private void cbcategory_MouseClick(object sender, MouseEventArgs e)
