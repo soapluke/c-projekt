@@ -1,10 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <channel>
-  <interval>43200000</interval>
-  <url>http://feeds.podtrac.com/3RfQ4b93gYzd</url>
-  <lastSync>2017-10-23 15:45:18</lastSync>
-  <item ID="pod0">
-    <description>Del 2 av 2 - KÄNSLIGA LYSSNARE VARNAS!
+    <interval>43200000</interval>
+    <url>http://feeds.podtrac.com/3RfQ4b93gYzd</url>
+    <lastSync>2017-10-24 12:37:54</lastSync>
+    <item ID="pod0">
+        <description>I del 2 hör vi mer från Karl-Gustav, hans försvarsadvokater, deras ifrågasättande av brottsplatsundersökningen samt vad den okände tredje mannen har för inverkan i Karl-Gustavs dom.
+
+-
+
+Rättegångspodden görs i samarbete med Lexbase. Bli medlem på lexbase.se och ange rabattkoden "rättegångspodden" för att ta del av erbjudandet där du får tre domar att beställa ut kostnadsfritt. Den här säsongen sponsras även av hörlurstillverkarna pugz.com. 25% rabatt med rabattkoden “rättegångspodden”!
+
+Musik: sptfy.com/1L5N
+Musik licensierad av STIM &amp; PremiumBeat
+
+Källor:
+Sveriges Domstolar - 
+www.domstol.se/
+Sveriges Radio - 
+http://t.sr.se/1LbFi7q
+http://t.sr.se/298oeWy
+http://t.sr.se/2kRoMV
+
+Ansvarig utgivare: Jonas Häger</description>
+        <title>S03E11 Skotten i Vallåkra - Del 2</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/348196807-rattegangspodden-s03e11.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod1">
+        <description>Sent en onsdagkväll den 14:e oktober 2015 kommer den 68-årige Karl-Gustav hem till sin bostad i Vallåkra. 
+
+Hans hund märker att något inte står rätt till och snart märker även Karl-Gustav att han håller på att bli angripen i sitt eget hem av två män. 
+Han ringer både polisen och sin systern, som under cirka en timmes tid försöker få polis att skicka en patrull till sin bror i Vallåkra, men det dröjer. När polisen väl kommer hittar de två män döda utanför Karl-Gustavs hus. 
+
+Männen är bröder, 21 respektive 24 år gamla och Karl-Gustav grips som misstänkt för mord.
+
+-
+
+Rättegångspodden görs i samarbete med Lexbase. Bli medlem på lexbase.se och ange rabattkoden "rättegångspodden" för att ta del av erbjudandet där du får tre domar att beställa ut kostnadsfritt. Den här säsongen sponsras även av hörlurstillverkarna pugz.com. 25% rabatt med rabattkoden “rättegångspodden”!
+
+Musik: sptfy.com/1L5N
+Musik licensierad av STIM &amp; PremiumBeat
+
+Källor:
+Sveriges Domstolar - 
+www.domstol.se/
+
+Ansvarig utgivare: Jonas Häger</description>
+        <title>S03E10 Skotten i Vallåkra - Del 1</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/348195583-rattegangspodden-s03e10.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod2">
+        <description>Del 2 av 2 - KÄNSLIGA LYSSNARE VARNAS!
 
 -
 
@@ -23,12 +70,12 @@ https://www.svt.se/nyheter/lokalt/jamtland/hyllas-for-raddningsarbetet-vid-kraft
 https://www.svt.se/nyheter/lokalt/jamtland/aklagaren-en-bra-dom
 
 Ansvarig utgivare: Jonas Häger</description>
-    <title>S03E09 Spädbarnet i kraftverksdammen - Del 2</title>
-    <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/345865471-rattegangspodden-s03e09.mp3</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod1">
-    <description>Del 1 av 2 - KÄNSLIGA LYSSNARE VARNAS!
+        <title>S03E09 Spädbarnet i kraftverksdammen - Del 2</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/345865471-rattegangspodden-s03e09.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod3">
+        <description>Del 1 av 2 - KÄNSLIGA LYSSNARE VARNAS!
 
 -
 
@@ -44,12 +91,12 @@ Sveriges Domstolar -
 www.domstol.se/
 
 Ansvarig utgivare: Jonas Häger</description>
-    <title>S03E08 Spädbarnet i kraftverksdammen - Del 1</title>
-    <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/345865181-rattegangspodden-s03e08.mp3</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod2">
-    <description>Nära tre år efter att Albin hittades död i ett skogsområde i Halmstad åtalas en person för mordet, som angavs av två anhöriga som inte längre orkade hålla inne med hemligheten.
+        <title>S03E08 Spädbarnet i kraftverksdammen - Del 1</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/345865181-rattegangspodden-s03e08.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod4">
+        <description>Nära tre år efter att Albin hittades död i ett skogsområde i Halmstad åtalas en person för mordet, som angavs av två anhöriga som inte längre orkade hålla inne med hemligheten.
 
 -
 
@@ -63,12 +110,12 @@ Sveriges Domstolar -
 www.domstol.se/
 
 Ansvarig utgivare: Jonas Häger</description>
-    <title>S03E07 Mordet på 16-årige Albin - Del 2</title>
-    <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/344636083-rattegangspodden-s03e07.mp3</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod3">
-    <description>Den 10:e maj 2014 hittas den unge Albin död vid en bäck i ett skogsområde i Halmstad. Polisen trodde först att det var en olycka, men efter att nya uppgifter tillkommer inleds en mordutredning. Men ingen gärningsman stod att finna.
+        <title>S03E07 Mordet på 16-årige Albin - Del 2</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/344636083-rattegangspodden-s03e07.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod5">
+        <description>Den 10:e maj 2014 hittas den unge Albin död vid en bäck i ett skogsområde i Halmstad. Polisen trodde först att det var en olycka, men efter att nya uppgifter tillkommer inleds en mordutredning. Men ingen gärningsman stod att finna.
 
 -
 
@@ -82,12 +129,12 @@ Sveriges Domstolar -
 www.domstol.se/
 
 Ansvarig utgivare: Jonas Häger</description>
-    <title>S03E06 Mordet på 16-årige Albin - Del 1</title>
-    <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/344635415-rattegangspodden-s03e06.mp3</enclosure>
-    <status>Listened to.</status>
-  </item>
-  <item ID="pod4">
-    <description>En novemberkväll 2015 träffas ett par kompisar i en lägenhet i Ljungby för att spela musik och dricka alkohol. Men grannarna i lägenhetsbyggnaden hör aldrig någon musik. Istället hörs ett ihärdigt dunkande som pågår i timmar, vilket är ljudet av en då 25-årig man som håller på att torteras till döds. 
+        <title>S03E06 Mordet på 16-årige Albin - Del 1</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/344635415-rattegangspodden-s03e06.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod6">
+        <description>En novemberkväll 2015 träffas ett par kompisar i en lägenhet i Ljungby för att spela musik och dricka alkohol. Men grannarna i lägenhetsbyggnaden hör aldrig någon musik. Istället hörs ett ihärdigt dunkande som pågår i timmar, vilket är ljudet av en då 25-årig man som håller på att torteras till döds. 
 
 -
 
@@ -104,12 +151,12 @@ Sveriges Radio -
 http://t.sr.se/2xwxVpQ
 
 Ansvarig utgivare: Jonas Häger</description>
-    <title>S03E05 Tortyrmordet i Ljungby</title>
-    <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/340098947-rattegangspodden-s03e05.mp3</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod5">
-    <description>I Uppsala ger personer under flera års tid bort sina besparingar till den före detta tyngdlyftaren Gunnar, vilket visar sig vara en mycket dålig idé.
+        <title>S03E05 Tortyrmordet i Ljungby</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/340098947-rattegangspodden-s03e05.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod7">
+        <description>I Uppsala ger personer under flera års tid bort sina besparingar till den före detta tyngdlyftaren Gunnar, vilket visar sig vara en mycket dålig idé.
 
 -
 
@@ -123,12 +170,12 @@ Sveriges Domstolar -
 http://www.domstol.se/
 
 Ansvarig utgivare: Jonas Häger</description>
-    <title>S03E04 Det godhjärtade börsgeniet</title>
-    <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/337892343-rattegangspodden-s03e04.mp3</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod6">
-    <description>Natten den 15:e mars 2016 påträffas revisorn Eva i sitt grovkök av två förbryllade poliser. Hon står där naken, blöt och andfådd och i kläderna bredvid henne finns diskhandskar, en balaklava och en tändare som hon precis använt till att försöka mörda sin svåger och hans familj med.
+        <title>S03E04 Det godhjärtade börsgeniet</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/337892343-rattegangspodden-s03e04.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod8">
+        <description>Natten den 15:e mars 2016 påträffas revisorn Eva i sitt grovkök av två förbryllade poliser. Hon står där naken, blöt och andfådd och i kläderna bredvid henne finns diskhandskar, en balaklava och en tändare som hon precis använt till att försöka mörda sin svåger och hans familj med.
 
 -
 
@@ -142,12 +189,12 @@ Sveriges Domstolar -
 http://www.domstol.se/
 
 Ansvarig utgivare: Jonas Häger</description>
-    <title>S03E03 Den nakna revisorn</title>
-    <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/334608162-rattegangspodden-s03e03.mp3</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod7">
-    <description>På söndagskvällen den 7:e juni 2015 kom 17-åriga Lisa aldrig hem från sitt sommarjobb på caféet i Blomberg, Kinnekulle. Föräldrarna anmäler henne försvunnen och kommande vecka drar en sökinsats med flera tusen frivilliga igång. Fem dagar senare hittas Lisas kropp inträngd i ett skåp, i en byggnad på en närliggande gård. Samma kväll häktas även tre litauiska gästarbetare misstänkta för mord och skyddande av brottsling.
+        <title>S03E03 Den nakna revisorn</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/334608162-rattegangspodden-s03e03.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod9">
+        <description>På söndagskvällen den 7:e juni 2015 kom 17-åriga Lisa aldrig hem från sitt sommarjobb på caféet i Blomberg, Kinnekulle. Föräldrarna anmäler henne försvunnen och kommande vecka drar en sökinsats med flera tusen frivilliga igång. Fem dagar senare hittas Lisas kropp inträngd i ett skåp, i en byggnad på en närliggande gård. Samma kväll häktas även tre litauiska gästarbetare misstänkta för mord och skyddande av brottsling.
 
 -
 
@@ -166,12 +213,12 @@ http://t.sr.se/1R15IJL
 http://t.sr.se/1GJD4xQ
 
 Ansvarig utgivare: Jonas Häger</description>
-    <title>S03E02 Mordet på Lisa Holm -  Del 2</title>
-    <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/332063860-rattegangspodden-s03e02.mp3</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod8">
-    <description>På söndagskvällen den 7:e juni 2015 kom 17-åriga Lisa aldrig hem från sitt sommarjobb på caféet i Blomberg, Kinnekulle. Föräldrarna anmäler henne försvunnen och kommande vecka drar en sökinsats med flera tusen frivilliga igång. Fem dagar senare hittas Lisas kropp inträngd i ett skåp, i en byggnad på en närliggande gård. Samma kväll häktas även tre litauiska gästarbetare misstänkta för mord och skyddande av brottsling.
+        <title>S03E02 Mordet på Lisa Holm -  Del 2</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/332063860-rattegangspodden-s03e02.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod10">
+        <description>På söndagskvällen den 7:e juni 2015 kom 17-åriga Lisa aldrig hem från sitt sommarjobb på caféet i Blomberg, Kinnekulle. Föräldrarna anmäler henne försvunnen och kommande vecka drar en sökinsats med flera tusen frivilliga igång. Fem dagar senare hittas Lisas kropp inträngd i ett skåp, i en byggnad på en närliggande gård. Samma kväll häktas även tre litauiska gästarbetare misstänkta för mord och skyddande av brottsling.
 
 -
 
@@ -191,24 +238,24 @@ http://t.sr.se/1JKaB9i
 http://t.sr.se/2uR5BMN
 
 Ansvarig utgivare: Jonas Häger</description>
-    <title>S03E01 Mordet på Lisa Holm - Del 1</title>
-    <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/332063767-rattegangspodden-s03e01.mp3</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod9">
-    <description>En ny säsong av Rättegångspodden är planerad till sommaren, med start i början av juli! 
+        <title>S03E01 Mordet på Lisa Holm - Del 1</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/332063767-rattegangspodden-s03e01.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod11">
+        <description>En ny säsong av Rättegångspodden är planerad till sommaren, med start i början av juli! 
 
 Börja prenumerera igen och följ https://www.facebook.com/rattegangspodden för mer info.
 
 Ni kan stödja arbetet genom att donera gärna en slant via http://patreon.com/rattegangspodden
 
 Tack för att ni lyssnar!</description>
-    <title>S03 - Teaser</title>
-    <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/324587739-rattegangspodden-s03_teaser.mp3</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod10">
-    <description>Stort tack till alla ni som röstade fram Rättegångspodden till en finalplats i Svenska Podcastpriset!
+        <title>S03 - Teaser</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/324587739-rattegangspodden-s03_teaser.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod12">
+        <description>Stort tack till alla ni som röstade fram Rättegångspodden till en finalplats i Svenska Podcastpriset!
 
 Nu när det är final uppskattar jag mer än någonsin om ni vill fortsätta att rösta på Rättegångspodden:
 
@@ -222,12 +269,12 @@ iTunes:
 https://itunes.apple.com/se/podcast/narrativet/id1168579481?l=en&amp;mt=2
 RSS-feed: 	
 http://feeds.podtrac.com/MG3V1jR6Sskw</description>
-    <title>Teaser - Ny podcast: "Narrativet"</title>
-    <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/295134257-rattegangspodden-teaser-ny-podcast-narrativet.mp3</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod11">
-    <description>Den 27:e maj 2015 brinner det i en villa i Norrahammar, vilket blir upptakten till ett av de absolut mest sanslösa rättsfallen i modern svensk kriminalhistoria.
+        <title>Teaser - Ny podcast: "Narrativet"</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/295134257-rattegangspodden-teaser-ny-podcast-narrativet.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod13">
+        <description>Den 27:e maj 2015 brinner det i en villa i Norrahammar, vilket blir upptakten till ett av de absolut mest sanslösa rättsfallen i modern svensk kriminalhistoria.
 
 -
 
@@ -247,12 +294,12 @@ http://t.sr.se/23bM5rl
 http://t.sr.se/1XvbZ98
 
 Ansvarig utgivare: Jonas Häger</description>
-    <title>S02E10 Dubbelmördaren - Del 2</title>
-    <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/289611130-rattegangspodden-dubbelmordaren_del_2.mp3</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod12">
-    <description>Den 27:e maj 2015 brinner det i en villa i Norrahammar, vilket blir upptakten till ett av de absolut mest sanslösa rättsfallen i modern svensk kriminalhistoria.
+        <title>S02E10 Dubbelmördaren - Del 2</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/289611130-rattegangspodden-dubbelmordaren_del_2.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod14">
+        <description>Den 27:e maj 2015 brinner det i en villa i Norrahammar, vilket blir upptakten till ett av de absolut mest sanslösa rättsfallen i modern svensk kriminalhistoria.
 
 -
 
@@ -271,12 +318,12 @@ http://t.sr.se/1Q1S6QQ
 http://t.sr.se/1ROnzoT
 
 Ansvarig utgivare: Jonas Häger</description>
-    <title>S02E09 Dubbelmördaren - Del 1</title>
-    <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/289610401-rattegangspodden-dubbelmordaren_del_1.mp3</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod13">
-    <description>I Del 2 kommer åklagaren leda i bevis att mordet på Lovisa var mer planlagt än vad Jonna vill framställa det som och då med utångspunkten i Jonnas minst sagt uppseeneväckande sökhistorik under tiden före och efter mordet.
+        <title>S02E09 Dubbelmördaren - Del 1</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/289610401-rattegangspodden-dubbelmordaren_del_1.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod15">
+        <description>I Del 2 kommer åklagaren leda i bevis att mordet på Lovisa var mer planlagt än vad Jonna vill framställa det som och då med utångspunkten i Jonnas minst sagt uppseeneväckande sökhistorik under tiden före och efter mordet.
 
 -
 
@@ -297,12 +344,12 @@ http://t.sr.se/1CIk7Dy
 http://t.sr.se/1C7qnJ3
 
 Ansvarig utgivare: Jonas Häger</description>
-    <title>S02E08 Styckmordet i Askersund - Del 2</title>
-    <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/284255054-rattegangspodden-s02e08-styckmordet-i-askersund-del-2.mp3</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod14">
-    <description>Kvällen den 18 Juni 2014 ringer 25-åriga Jonna Henningson polisens larmcentral. Hon uppger att hon varit delaktig i ett triangeldrama och hamnat i bråk med sin kärleksrival, Lovisa. Enligt Jonna ska Lovisa ha hotat och stuckit Jonna med en kniv, innan Jonna fått tag på kniven och stuckit tillbaka. Jonna säger att hon sedan flyr i panik och är nu orolig för vad som hänt Lovisa. Men detta visar sig snart vara långt ifrån sanningen. När Jonna ringer polisen har hon i själva verket precis varit och grävt ner Lovisas kroppsdelar i skogen.
+        <title>S02E08 Styckmordet i Askersund - Del 2</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/284255054-rattegangspodden-s02e08-styckmordet-i-askersund-del-2.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod16">
+        <description>Kvällen den 18 Juni 2014 ringer 25-åriga Jonna Henningson polisens larmcentral. Hon uppger att hon varit delaktig i ett triangeldrama och hamnat i bråk med sin kärleksrival, Lovisa. Enligt Jonna ska Lovisa ha hotat och stuckit Jonna med en kniv, innan Jonna fått tag på kniven och stuckit tillbaka. Jonna säger att hon sedan flyr i panik och är nu orolig för vad som hänt Lovisa. Men detta visar sig snart vara långt ifrån sanningen. När Jonna ringer polisen har hon i själva verket precis varit och grävt ner Lovisas kroppsdelar i skogen.
 
 -
 
@@ -317,12 +364,12 @@ Sveriges Domstolar -
 http://www.domstol.se/
 
 Ansvarig utgivare: Jonas Häger</description>
-    <title>S02E07 Styckmordet i Askersund - Del 1</title>
-    <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/284254537-rattegangspodden-s02e07-styckmordet-i-askersund-del-1.mp3</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod15">
-    <description>I slutet av juni 2015 hittas en 35-årig man död i sin lägenhet på Lidingö, utanför Stockholm. Han har fått halsen avskuren och lämnats i sitt eget blod. Av blodet har det på en av väggarna även målats ett stort pentagram, som är en symbol med koppling till det ockulta. Samma dag anmäler sig en 23-årig man till polisen och erkänner till mordet. Han hävdar dock att han hör röster och blivit uppmanad av en röst att utföra dådet. Är det så det gick till, eller kan det vara så att det finns ett helt annat motiv till varför 35-åringen mördades?
+        <title>S02E07 Styckmordet i Askersund - Del 1</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/284254537-rattegangspodden-s02e07-styckmordet-i-askersund-del-1.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod17">
+        <description>I slutet av juni 2015 hittas en 35-årig man död i sin lägenhet på Lidingö, utanför Stockholm. Han har fått halsen avskuren och lämnats i sitt eget blod. Av blodet har det på en av väggarna även målats ett stort pentagram, som är en symbol med koppling till det ockulta. Samma dag anmäler sig en 23-årig man till polisen och erkänner till mordet. Han hävdar dock att han hör röster och blivit uppmanad av en röst att utföra dådet. Är det så det gick till, eller kan det vara så att det finns ett helt annat motiv till varför 35-åringen mördades?
 
 -
 
@@ -339,12 +386,12 @@ Sveriges Radio -
 http://t.sr.se/1hNsN7t
 
 Ansvarig utgivare: Jonas Häger</description>
-    <title>S02E06 Pentagram-mordet</title>
-    <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/277711842-rattegangspodden-s02e06-pentagram-mordet.mp3</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod16">
-    <description>Åklagaren verkar få bra koll på hur det hela ligger till och ställer Johannes Malmqvist mot väggen. Vi hör också mer om ägaren till huset i Fjällboda, där narkotikaverksamheten bedrevs, som i väntan på rättegången beger sig ut på ett eget äventyr.
+        <title>S02E06 Pentagram-mordet</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/277711842-rattegangspodden-s02e06-pentagram-mordet.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod18">
+        <description>Åklagaren verkar få bra koll på hur det hela ligger till och ställer Johannes Malmqvist mot väggen. Vi hör också mer om ägaren till huset i Fjällboda, där narkotikaverksamheten bedrevs, som i väntan på rättegången beger sig ut på ett eget äventyr.
 
 -
 
@@ -359,12 +406,12 @@ Sveriges Domstolar -
 http://www.domstol.se/
 
 Ansvarig utgivare: Jonas Häger</description>
-    <title>S02E05 Narkotikahärvan på Darknet - Del 3</title>
-    <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/274848129-rattegangspodden-s02e05_darknet_del_3.mp3</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod17">
-    <description>Medan huvudmännen bakom härvan skyller på varandra hör vi också målvakternas redogörelser, de som gått med på att ta emot drogerna från utlandet. Och vem är den mystiska Johnny?
+        <title>S02E05 Narkotikahärvan på Darknet - Del 3</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/274848129-rattegangspodden-s02e05_darknet_del_3.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod19">
+        <description>Medan huvudmännen bakom härvan skyller på varandra hör vi också målvakternas redogörelser, de som gått med på att ta emot drogerna från utlandet. Och vem är den mystiska Johnny?
 
 -
 
@@ -382,12 +429,12 @@ Sveriges Radio P4 Norrbotten:
 http://t.sr.se/1G6g2iN
 
 Ansvarig utgivare: Jonas Häger</description>
-    <title>S02E04 Narkotikahärvan på Darknet - Del 2</title>
-    <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/274847641-rattegangspodden-s02e04_darknet_del_2.mp3</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod18">
-    <description>Efter att grundaren av den illegala och Darknet-baserade marknadsplatsen Silk Road grips kommer FBI över en mängd information om var exempelvis narkotikaförsändelser härstammar ifrån. En storsäljare, vars användarnamn var Alexandrus, tycks ha skickat sina försändelser från Skellefteå. FBI skickar då vidare uppgifterna till Skellefteå-polisen vilket blir upptakten till en av  Sveriges hittills största narkotikahärvor när det kommer till överlåtelser via internet. En minst sagt ovanlig narkotikahärva som som tar avstamp i ett tillslag från FBI i San Fransisco och som avslutas med att en kvinna blir bestulen på sina renskinn i Arvidsjaur.
+        <title>S02E04 Narkotikahärvan på Darknet - Del 2</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/274847641-rattegangspodden-s02e04_darknet_del_2.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod20">
+        <description>Efter att grundaren av den illegala och Darknet-baserade marknadsplatsen Silk Road grips kommer FBI över en mängd information om var exempelvis narkotikaförsändelser härstammar ifrån. En storsäljare, vars användarnamn var Alexandrus, tycks ha skickat sina försändelser från Skellefteå. FBI skickar då vidare uppgifterna till Skellefteå-polisen vilket blir upptakten till en av  Sveriges hittills största narkotikahärvor när det kommer till överlåtelser via internet. En minst sagt ovanlig narkotikahärva som som tar avstamp i ett tillslag från FBI i San Fransisco och som avslutas med att en kvinna blir bestulen på sina renskinn i Arvidsjaur.
 
 -
 
@@ -407,12 +454,12 @@ http://t.sr.se/1G6g2iN
 http://t.sr.se/1GQF0Pd
 
 Ansvarig utgivare: Jonas Häger</description>
-    <title>S02E03 Narkotikahärvan på Darknet - Del 1</title>
-    <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/274847579-rattegangspodden-s02e03_darknet_del_1.mp3</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod19">
-    <description>I december 1988 anhålls Christer Pettersson för mordet på den dåvarande statsministern Olof Palme. I juli 1989 döms han av Stockholm Tingsrätt som skyldig. Rättegångspodden har sammanställt ljudupptagningarna från rättegången.
+        <title>S02E03 Narkotikahärvan på Darknet - Del 1</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/274847579-rattegangspodden-s02e03_darknet_del_1.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod21">
+        <description>I december 1988 anhålls Christer Pettersson för mordet på den dåvarande statsministern Olof Palme. I juli 1989 döms han av Stockholm Tingsrätt som skyldig. Rättegångspodden har sammanställt ljudupptagningarna från rättegången.
 
 -
 
@@ -433,12 +480,12 @@ Sveriges Radio (Youtube) -
 https://www.youtube.com/watch?v=2NE66hMOb5E
 
 Ansvarig utgivare: Jonas Häger</description>
-    <title>S02E02 Rättegången mot Christer Pettersson</title>
-    <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/271982234-rattegangspodden-s02e02_christer_pettersson.mp3</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod20">
-    <description>Den 5:e Januari 2015 samlas 130 arbetsglada personer på en parkeringsplats i Räppe, Växjö. De har blivit lovade fasta anställningar med höga löner. Men den som anställt dem, en då 44-årig man vid namn Jens Eriksson, dyker själv inte upp och det uppdagas snart att något jobb inte existerar. När polisen blir inblandad har de inledningsvis svår att avgöra vad för brott som har begåtts, om det begåtts något brott över huvud taget. Nationellt Bedrägericentrum känner inte till något liknande fall sedan tidigare, vittnar om ett helt nytt modus och detta blir därför ett unikt fall.
+        <title>S02E02 Rättegången mot Christer Pettersson</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/271982234-rattegangspodden-s02e02_christer_pettersson.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod22">
+        <description>Den 5:e Januari 2015 samlas 130 arbetsglada personer på en parkeringsplats i Räppe, Växjö. De har blivit lovade fasta anställningar med höga löner. Men den som anställt dem, en då 44-årig man vid namn Jens Eriksson, dyker själv inte upp och det uppdagas snart att något jobb inte existerar. När polisen blir inblandad har de inledningsvis svår att avgöra vad för brott som har begåtts, om det begåtts något brott över huvud taget. Nationellt Bedrägericentrum känner inte till något liknande fall sedan tidigare, vittnar om ett helt nytt modus och detta blir därför ett unikt fall.
 
 -
 
@@ -468,12 +515,12 @@ Sveriges Radio P4 Sjuhärad -
 http://t.sr.se/1xxb4X9
 
 Ansvarig utgivare: Jonas Häger</description>
-    <title>S02E01 JUSAB och den stora jobb-bluffen</title>
-    <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/268713096-rattegangspodden-s02e01-jusab.mp3</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod21">
-    <description>Rättegångspodden görs nu i stolt samarbete med Lexbase. I en intervju med Lexbase grundare Jonas Häger och styrelseordföranden Magnus Gröndal hör vi historien om hur och varför Lexbase grundades, kontroverserna kring lanseringen, vikten av offentlighetsprincipen samt hur det kommer sig att media gick så hårt fram mot företaget. 
+        <title>S02E01 JUSAB och den stora jobb-bluffen</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/268713096-rattegangspodden-s02e01-jusab.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod23">
+        <description>Rättegångspodden görs nu i stolt samarbete med Lexbase. I en intervju med Lexbase grundare Jonas Häger och styrelseordföranden Magnus Gröndal hör vi historien om hur och varför Lexbase grundades, kontroverserna kring lanseringen, vikten av offentlighetsprincipen samt hur det kommer sig att media gick så hårt fram mot företaget. 
 
 -
 
@@ -489,19 +536,19 @@ http://t.sr.se/Mztp1Y
 http://t.sr.se/1ctyPYV
 http://t.sr.se/1f5X9Nk
 http://t.sr.se/1f5X9Nk</description>
-    <title>Lexbase/Rättegångspodden</title>
-    <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/268711168-rattegangspodden-lexbaserattegangspodden.mp3</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod22">
-    <description>Börja prenumerera igen! En ny säsong av Rättegångspodden går av stapeln i början av juni. Följ facebook.com/rattegangspodden för kommande info och uppdateringar.
+        <title>Lexbase/Rättegångspodden</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/268711168-rattegangspodden-lexbaserattegangspodden.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod24">
+        <description>Börja prenumerera igen! En ny säsong av Rättegångspodden går av stapeln i början av juni. Följ facebook.com/rattegangspodden för kommande info och uppdateringar.
 </description>
-    <title>S02 - Teaser</title>
-    <enclosure>http://dts.podtrac.com/redirect.m4a/feeds.soundcloud.com/stream/261460090-rattegangspodden-s02-teaser.m4a</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod23">
-    <description>I sista delen om Styckmordet i Boden hör vi åklagarna och målsägarbiträdet pressa Kristoffer kring dom besvärande fynd som hittas i hans lägenhet och i hans bil. Vi går även närmare in på vilken roll Vatchareeyas karatetränare hade i utredningen samt hör en del vittnesmål och uppgifter som visar på en mörkare sida hos Kristoffer.
+        <title>S02 - Teaser</title>
+        <enclosure>http://dts.podtrac.com/redirect.m4a/feeds.soundcloud.com/stream/261460090-rattegangspodden-s02-teaser.m4a</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod25">
+        <description>I sista delen om Styckmordet i Boden hör vi åklagarna och målsägarbiträdet pressa Kristoffer kring dom besvärande fynd som hittas i hans lägenhet och i hans bil. Vi går även närmare in på vilken roll Vatchareeyas karatetränare hade i utredningen samt hör en del vittnesmål och uppgifter som visar på en mörkare sida hos Kristoffer.
 
 -
 
@@ -523,12 +570,12 @@ http://t.sr.se/1CyKrAf
 http://t.sr.se/1eywcSb
 
 Ansvarig utgivare: Jonas Häger</description>
-    <title>S01E10 Styckmordet i Boden - Del 3</title>
-    <enclosure>http://dts.podtrac.com/redirect.m4a/feeds.soundcloud.com/stream/227464929-rattegangspodden-styckmordet_i_boden_del_3.m4a</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod24">
-    <description>I Del 2 om Styckmordet i Boden hör vi den åtalade Kristoffer Johanssons version om vad som hände under tiden för Vatchareeyas försvinnande, och den kommer kantas av en rad kontroversiella uttalanden och teorier.
+        <title>S01E10 Styckmordet i Boden - Del 3</title>
+        <enclosure>http://dts.podtrac.com/redirect.m4a/feeds.soundcloud.com/stream/227464929-rattegangspodden-styckmordet_i_boden_del_3.m4a</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod26">
+        <description>I Del 2 om Styckmordet i Boden hör vi den åtalade Kristoffer Johanssons version om vad som hände under tiden för Vatchareeyas försvinnande, och den kommer kantas av en rad kontroversiella uttalanden och teorier.
 
 -
 
@@ -546,12 +593,12 @@ Sveriges Radio -
 http://t.sr.se/N4IY1M
 
 Ansvarig utgivare: Jonas Häger</description>
-    <title>S01E09 Styckmordet i Boden - Del 2</title>
-    <enclosure>http://dts.podtrac.com/redirect.m4a/feeds.soundcloud.com/stream/227462397-rattegangspodden-styckmordet_i_boden_del_2.m4a</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod25">
-    <description>Den 4: maj 2013 uppdaterar 20-åriga Vatchareeya Bangsuan sin facebooksida där hon skriver att hon ska iväg och motionera och sedan plugga hemma hos en kompis. Denna kompis är den 22-åriga Kristoffer Johansson och vid fyratiden lämnar hon sitt föräldrahem, hoppar in i Kristoffers bil och åker till hans lägenhet. 
+        <title>S01E09 Styckmordet i Boden - Del 2</title>
+        <enclosure>http://dts.podtrac.com/redirect.m4a/feeds.soundcloud.com/stream/227462397-rattegangspodden-styckmordet_i_boden_del_2.m4a</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod27">
+        <description>Den 4: maj 2013 uppdaterar 20-åriga Vatchareeya Bangsuan sin facebooksida där hon skriver att hon ska iväg och motionera och sedan plugga hemma hos en kompis. Denna kompis är den 22-åriga Kristoffer Johansson och vid fyratiden lämnar hon sitt föräldrahem, hoppar in i Kristoffers bil och åker till hans lägenhet. 
 
 Enligt Kristoffer, som Vatchareeya tidigare haft en kortare relation med, ska Vatchareeya sedan ha lämnat hans lägenheten vid 21-tiden. Efter det är det ingen som varken ser eller hör något från Vatchareeya, och två veckor senare hittas hennes kroppsdelar utspridda på ett berg i utkanten av Boden. Strax därefter häktas Kristoffer Johansson, misstänkt för mordet. Rättegångspodden har sammanställt ljudupptagningarna från tingsrätten.
 
@@ -575,12 +622,12 @@ http://t.sr.se/1d1lsuH
 http://t.sr.se/Lfg5z1
 
 Ansvarig utgivare: Jonas Häger</description>
-    <title>S01E08 Styckmordet i Boden - Del 1</title>
-    <enclosure>http://dts.podtrac.com/redirect.m4a/feeds.soundcloud.com/stream/227462080-rattegangspodden-styckmordet_i_boden_del_1.m4a</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod26">
-    <description>Under varumärket “Easy Wine Glass” säljer och distribuerar Cefour förfyllda och drickfärdiga vinglas. Med denna produkt siktar dom på världsmarknaden och 2011 börsnoteras Cefour. Intresset från allmänheten väcks, men bolaget har svårt att komma loss från prototypstadiet och tidigt 2012 har Cefour-aktien sin botten på 3 öre. Men året därpå, under sommaren 2013 nås allmänheten av en rad lovordande pressmeddelanden och aktien stiger i höjden till en topp på 34 öre. I samma veva förs 60 miljoner aktier över i skymundan från styrelseordförandet i bolaget och kort därefter häktas tre personer misstänkta för grovt svindleri samt grovt insiderbrott. Rättegångspodden har sammanställt ljudupptagningarna från tingsrätten.
+        <title>S01E08 Styckmordet i Boden - Del 1</title>
+        <enclosure>http://dts.podtrac.com/redirect.m4a/feeds.soundcloud.com/stream/227462080-rattegangspodden-styckmordet_i_boden_del_1.m4a</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod28">
+        <description>Under varumärket “Easy Wine Glass” säljer och distribuerar Cefour förfyllda och drickfärdiga vinglas. Med denna produkt siktar dom på världsmarknaden och 2011 börsnoteras Cefour. Intresset från allmänheten väcks, men bolaget har svårt att komma loss från prototypstadiet och tidigt 2012 har Cefour-aktien sin botten på 3 öre. Men året därpå, under sommaren 2013 nås allmänheten av en rad lovordande pressmeddelanden och aktien stiger i höjden till en topp på 34 öre. I samma veva förs 60 miljoner aktier över i skymundan från styrelseordförandet i bolaget och kort därefter häktas tre personer misstänkta för grovt svindleri samt grovt insiderbrott. Rättegångspodden har sammanställt ljudupptagningarna från tingsrätten.
 
 -
 
@@ -598,12 +645,12 @@ Dragons Den UK -
 Season 07 Episode 06
 
 Ansvarig utgivare: Jonas Häger</description>
-    <title>S01E07 Cefour-härvan</title>
-    <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/215963667-rattegangspodden-7-cefour-harvan.mp3</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod27">
-    <description>Den 8:e September 2013 hittas en 31-årig man mördad i ett skogsparti i Frösunda. Han lockades dit via en dejtingsajt med löfte om sex, men blir där utsatt för den så kallade Dejtingligan som vid flera tillfällen innan lurat män på pengar. Så var planen även denna gång, men rånförsöket urartar i ett bråk som får dödlig utgång. Den 10:e September grips två män och två yngre tjejer misstänkta för mordet. Rättegångspodden har sammanställt ljudupptagningarna från tingsrätten. 
+        <title>S01E07 Cefour-härvan</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/215963667-rattegangspodden-7-cefour-harvan.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod29">
+        <description>Den 8:e September 2013 hittas en 31-årig man mördad i ett skogsparti i Frösunda. Han lockades dit via en dejtingsajt med löfte om sex, men blir där utsatt för den så kallade Dejtingligan som vid flera tillfällen innan lurat män på pengar. Så var planen även denna gång, men rånförsöket urartar i ett bråk som får dödlig utgång. Den 10:e September grips två män och två yngre tjejer misstänkta för mordet. Rättegångspodden har sammanställt ljudupptagningarna från tingsrätten. 
 
 -
 DISCLAIMER: I detta avsnitt nämner jag att jag inte gör podden för ekonomisk vinning. Så har det varit, och tanken då var att inte producera så många fler avsnitt. Detta ändrades dock, jag ville producera ännu fler och för att kunna göra det möjligt hittade jag en samarbetspartner som kunde stötta mig på fler sätt, bland annat ekonomiskt.
@@ -624,12 +671,12 @@ Expressen -
 http://www.expressen.se/nyheter/misstanks-ha-ranmordat-man/
 
 Ansvarig utgivare: Jonas Häger</description>
-    <title>S01E06 Dejtingligan</title>
-    <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/195151962-rattegangspodden-dejtingligan.mp3</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod28">
-    <description>I februari 2014 uppnystades en omfattande, tragisk och ovanligt hänsynslös bedrägerihärva i Jämtland. Det visade sig att en 37-årig man, tillsammans med sin 77-åriga mamma, lurat till sig över 13 miljoner kronor från släkt och vänner i över sju års tid. Rättegångspodden har sammanställt ljudupptagningarna från tingsrätten.
+        <title>S01E06 Dejtingligan</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/195151962-rattegangspodden-dejtingligan.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod30">
+        <description>I februari 2014 uppnystades en omfattande, tragisk och ovanligt hänsynslös bedrägerihärva i Jämtland. Det visade sig att en 37-årig man, tillsammans med sin 77-åriga mamma, lurat till sig över 13 miljoner kronor från släkt och vänner i över sju års tid. Rättegångspodden har sammanställt ljudupptagningarna från tingsrätten.
 
 -
 
@@ -647,12 +694,12 @@ Sveriges Radio -
 http://t.sr.se/1jOH6Es
 
 Ansvarig utgivare: Jonas Häger</description>
-    <title>S01E05 Fan och hans morsa - Miljonbedragarna</title>
-    <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/177491068-rattegangspodden-fan-och-hans-morsa-miljonbedragarna.mp3</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod29">
-    <description>Den 24:e februari 2012 brinner kulturpersonligheten och direktören Harry Scheins villa i Danderyd ner. Några dagar senare grips läkaren Magnus Lundberg, även kallad Dr. Brasa, för dådet. Bevisen emot honom är omfattande, men Dr. Brasa har helt andra teorier. Rättegångspodden har sammanställt ljudupptagningarna från tingsrätten.
+        <title>S01E05 Fan och hans morsa - Miljonbedragarna</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/177491068-rattegangspodden-fan-och-hans-morsa-miljonbedragarna.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod31">
+        <description>Den 24:e februari 2012 brinner kulturpersonligheten och direktören Harry Scheins villa i Danderyd ner. Några dagar senare grips läkaren Magnus Lundberg, även kallad Dr. Brasa, för dådet. Bevisen emot honom är omfattande, men Dr. Brasa har helt andra teorier. Rättegångspodden har sammanställt ljudupptagningarna från tingsrätten.
 
 -
 
@@ -670,12 +717,12 @@ Expressen -
 http://www.expressen.se/tv/nyheter/magnus-lundberg-doms-till-4-ars-fangelse/
 
 Ansvarig utgivare: Jonas Häger</description>
-    <title>S01E04 Mordbrännaren Dr. Brasa</title>
-    <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/139610981-rattegangspodden-drbrasa.mp3</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod30">
-    <description>Del 3 av Uppsalakidnapparna. Innan kidnappningen sätts igång, men efter cykelstölderna, försöker Elias och Parastou trissa upp priset på en lägenhetsförsäljning. Det dröjer inte länge innan allting går ordentligt överstyr och en stackars familj i Linköping tvingas till skyddat boende. Rättegångspodden har sammanställt ljudupptagningarna från tingsrätten.
+        <title>S01E04 Mordbrännaren Dr. Brasa</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/139610981-rattegangspodden-drbrasa.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod32">
+        <description>Del 3 av Uppsalakidnapparna. Innan kidnappningen sätts igång, men efter cykelstölderna, försöker Elias och Parastou trissa upp priset på en lägenhetsförsäljning. Det dröjer inte länge innan allting går ordentligt överstyr och en stackars familj i Linköping tvingas till skyddat boende. Rättegångspodden har sammanställt ljudupptagningarna från tingsrätten.
 
 -
 
@@ -692,12 +739,12 @@ http://www.domstol.se/
 Sveriges Radio - 
 http://t.sr.se/1d1Irpy
 http://t.sr.se/OzDtcj</description>
-    <title>S01E03 Kidnapparna Del 3 - Lägenhetsaffärerna</title>
-    <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/124740927-rattegangspodden-lagenhetsaffarerna.mp3</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod31">
-    <description>Del 2 av Uppsalakidnapparna. Denna gång hör vi Elias och Parastou berätta om sina fadäser som cykelstjuvar under sensommaren 2011, innan kidnappningen dragit igång. Rättegångspodden har sammanställt ljudupptagningarna från tingsrätten.
+        <title>S01E03 Kidnapparna Del 3 - Lägenhetsaffärerna</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/124740927-rattegangspodden-lagenhetsaffarerna.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod33">
+        <description>Del 2 av Uppsalakidnapparna. Denna gång hör vi Elias och Parastou berätta om sina fadäser som cykelstjuvar under sensommaren 2011, innan kidnappningen dragit igång. Rättegångspodden har sammanställt ljudupptagningarna från tingsrätten.
 
 -
 
@@ -712,12 +759,12 @@ Sveriges Domstolar -
 http://www.domstol.se/
 
 Ansvarig utgivare: Jonas Häger</description>
-    <title>S01E02 Kidnapparna Del 2 - Cykelstölderna</title>
-    <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/114680223-rattegangspodden-cykelstolderna.mp3</enclosure>
-    <status>Unlistened</status>
-  </item>
-  <item ID="pod32">
-    <description>En kall januarimorgon 2012 uppdagades ett av de mest bisarra rättsfallen i modern svensk historia. Ett ungt, destruktivt, kärlekspar bestående av Elias Vecalius och Parastou Namdar visade sig ha kidnappat Uppsalastudenten Alexander Åhman. De hade drogat honom med en köttfärspaj full av sömntabletter och fört honom till ett ödelagt hus i Norrland i ett försök att utpressa hans familj på pengar. Det visade sig även att de till sin hjälp lurat med den mest osannolika av medbrottslingar, den bortkomna  och naiva Magnus Dahlskog. Honom utnyttjade de ekonomiskt och manipulerade till att ensam agera fångvakt. Situationen som uppstod blev outhärdlig både psykiskt och fysiskt för fången Alexander som tillbringar en vecka i en iskall källare mitt ute i ingenstans. Rättegångspodden har sammanställt ljudupptagningarna från tingsrätten.
+        <title>S01E02 Kidnapparna Del 2 - Cykelstölderna</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/114680223-rattegangspodden-cykelstolderna.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
+    <item ID="pod34">
+        <description>En kall januarimorgon 2012 uppdagades ett av de mest bisarra rättsfallen i modern svensk historia. Ett ungt, destruktivt, kärlekspar bestående av Elias Vecalius och Parastou Namdar visade sig ha kidnappat Uppsalastudenten Alexander Åhman. De hade drogat honom med en köttfärspaj full av sömntabletter och fört honom till ett ödelagt hus i Norrland i ett försök att utpressa hans familj på pengar. Det visade sig även att de till sin hjälp lurat med den mest osannolika av medbrottslingar, den bortkomna  och naiva Magnus Dahlskog. Honom utnyttjade de ekonomiskt och manipulerade till att ensam agera fångvakt. Situationen som uppstod blev outhärdlig både psykiskt och fysiskt för fången Alexander som tillbringar en vecka i en iskall källare mitt ute i ingenstans. Rättegångspodden har sammanställt ljudupptagningarna från tingsrätten.
 
 -
 
@@ -741,8 +788,8 @@ http://t.sr.se/1ggrj0L
 http://t.sr.se/1davBtR
 
 Ansvarig utgivare: Jonas Häger</description>
-    <title>S01E01 Kidnapparna Del 1 - Kidnappningen</title>
-    <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/103706657-rattegangspodden-kidnappningen.mp3</enclosure>
-    <status>Unlistened</status>
-  </item>
+        <title>S01E01 Kidnapparna Del 1 - Kidnappningen</title>
+        <enclosure>http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/103706657-rattegangspodden-kidnappningen.mp3</enclosure>
+        <status>Unlistened</status>
+    </item>
 </channel>
