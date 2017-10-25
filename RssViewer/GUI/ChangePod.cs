@@ -48,5 +48,14 @@ namespace GUI
                 this.Hide();
             }
         }
+
+        private void btchangeurl_Click(object sender, EventArgs e)
+        {
+            if(Validation.CheckIfCorrectUrl(tbchangeurl) && Validation.CheckIfEmpty(tbchangeurl, "URL"))
+            {
+                feed.GetChangeUrl(categoryname, podname, tbchangeurl.Text);
+                MessageBox.Show($"The URL for podcast {podname} has been changed.");
+            }
+        }
     }
 }

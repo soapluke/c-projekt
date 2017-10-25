@@ -35,5 +35,17 @@ namespace Data
             intervalnode.InnerText = interval;
             intervalxml.Save(path);
         }
+
+        public void ChangeUrl(string category, string podname, string url)
+        {
+            string path = Directory.GetCurrentDirectory() + @"\" + category + @"\" + podname + @".xml";
+            XmlDocument urlxml = new XmlDocument();
+            urlxml.Load(path);
+
+            var urlnode = urlxml.SelectSingleNode("channel/url");
+            urlnode.InnerText = url;
+            urlxml.Save(path);
+
+        }
     }
 }

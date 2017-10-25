@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <channel>
-  <interval>3600000</interval>
-  <url>http://hannahoamanda.libsyn.com/rss</url>
-  <lastSync>2017-10-25 12:36:24</lastSync>
+  <interval>7200000</interval>
+  <url>https://rss.acast.com/mydadwroteaporno</url>
+  <lastSync>2017-10-25 13:20:16</lastSync>
   <item ID="pod0">
     <description>&lt;p&gt;As Book Three draws to a close, it becomes clear that things will never be the same again at Steele's Pots and Pans...&lt;/p&gt;</description>
     <title>S3E15 - 'East Berlin'</title>
@@ -67,7 +67,7 @@
     <description>&lt;p&gt;Whilst in Leeds, Ken takes Belinda to his highly unusual basement flat where they get to know each other properly&lt;/p&gt;</description>
     <title>S3E10 - 'Ken Dewsbury's Cellar'</title>
     <enclosure>https://media.acast.com/mydadwroteaporno/s3e10-kendewsburyscellar/media.mp3</enclosure>
-    <status>Listened to.</status>
+    <status>Unlistened</status>
   </item>
   <item ID="pod11">
     <description>&lt;p&gt;The gang read your stories about how Rocky and his literature has changed your life for the better...or the worse.&lt;/p&gt;</description>

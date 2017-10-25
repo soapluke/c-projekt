@@ -9,7 +9,7 @@ namespace Data
 {
     public abstract class Rss
     {
-        public XmlDocument RssReader(string url) {
+        public virtual XmlDocument RssReader(string url) {
 
             string xml = "";
 

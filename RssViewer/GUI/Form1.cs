@@ -45,7 +45,7 @@ namespace GUI
         {
             feed.GetAddNewPod(tbpodname.Text, tbpodurl.Text, cbchoosecategory.SelectedItem.ToString(), feed.GetInterval(cbchooseinterval));
             lbpodeps.Items.Clear();
-            await Task.Delay(2000);
+            await Task.CompletedTask;
         }
         //Knapp för att öppna AddRemoveCategory.
         private void button1_Click(object sender, EventArgs e)
@@ -169,7 +169,7 @@ namespace GUI
 
         private void btnplaypodcast_Click(object sender, EventArgs e)
         {
-            if (Validation.CheckIfEmpty(cbcategory, "a category") && Validation.CheckIfEmpty(cbpodcasts, "a podcast"))
+            if (Validation.CheckIfEmpty(cbcategory, "a category") && Validation.CheckIfEmpty(cbpodcasts, "a podcast") && Validation.CheckIfEmpty(lbpodeps))
             {
                 string url;
                 playpod.GetPodUrl(cbcategory.SelectedItem.ToString(), cbpodcasts.SelectedItem.ToString(), lbpodeps.SelectedItem.ToString(), out url);

@@ -156,5 +156,10 @@ namespace Logic
         {
             delete.Delete(category, podname);
         }
+
+        public void GetChangeUrl(string category, string podname, string url)
+        {
+            changepod.ChangeUrl(category, podname, url);
+        }
     }
 }

@@ -10,6 +10,19 @@ namespace Logic
 {
     public class Validation
     {
+        public static bool CheckIfEmpty(ListBox list)
+        {
+            if(list.SelectedIndex == -1)
+            {
+                MessageBox.Show($"You need to choose a episode from the list", "Error");
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+
         public static bool CheckIfEmpty(TextBox text, string field)
         {
 
