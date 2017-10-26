@@ -7,6 +7,7 @@ using System.Xml;
 using Data;
 using System.IO;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace Logic
 {
@@ -57,21 +58,34 @@ namespace Logic
         {
             string path = Directory.GetCurrentDirectory() + @"\" + category + @"\" + podcast + @".xml";
 
-            XmlDocument descxml = new XmlDocument();
-            descxml.Load(path);
+            XElement descxml = XElement.Load(path);
 
-            foreach(XmlNode node in descxml.DocumentElement.SelectNodes("item"))
-            {
-                var title = node.SelectSingleNode("title");
-                if (avsnitt.Equals(title.InnerText))
-                {
-                    var desc = node.SelectSingleNode("description");
-                    string desctext = desc.InnerText;
-                    string trimmeddesctext = desctext.Replace("<p>", string.Empty).Replace("</p>", string.Empty);
-                    epdesc.Text = trimmeddesctext;
-                }
-            }
+            var description = from node in descxml.Elements("item")
+                              where node.Element("title").Value == avsnitt
+                              select node.Element("description").Value;
+
+            epdesc.Text = description.First().ToString();
         }
+
+        //public void GetEpisodeDescription(string category, string podcast, string avsnitt, RichTextBox epdesc)
+        //{
+        //    string path = Directory.GetCurrentDirectory() + @"\" + category + @"\" + podcast + @".xml";
+
+        //    XmlDocument descxml = new XmlDocument();
+        //    descxml.Load(path);
+
+        //    foreach(XmlNode node in descxml.DocumentElement.SelectNodes("item"))
+        //    {
+        //        var title = node.SelectSingleNode("title");
+        //        if (avsnitt.Equals(title.InnerText))
+        //        {
+        //            var desc = node.SelectSingleNode("description");
+        //            string desctext = desc.InnerText;
+        //            string trimmeddesctext = desctext.Replace("<p>", string.Empty).Replace("</p>", string.Empty);
+        //            epdesc.Text = trimmeddesctext;
+        //        }
+        //    }
+        //}
 
         public void GetEpisodeInfo(string category, string podcast, string avsnitt, Label epname, Label epstatus)
         {
